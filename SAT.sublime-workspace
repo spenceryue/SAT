@@ -1,0 +1,2302 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"clie",
+				"clientId"
+			],
+			[
+				"Str",
+				"StringBuilder"
+			],
+			[
+				"BLO",
+				"BLOCKSIZE"
+			],
+			[
+				"resul",
+				"resultScanner"
+			],
+			[
+				"UD",
+				"UDP_PORT"
+			],
+			[
+				"Data",
+				"DatagramPacket"
+			],
+			[
+				"print",
+				"printStackTrace"
+			],
+			[
+				"hand",
+				"handleDatagramSocket"
+			],
+			[
+				"cand",
+				"candidate"
+			],
+			[
+				"optio",
+				"option"
+			],
+			[
+				"chos",
+				"chosen"
+			],
+			[
+				"candi",
+				"candidates"
+			],
+			[
+				"opt",
+				"option"
+			],
+			[
+				"mar",
+				"marginal_handoff"
+			],
+			[
+				"can",
+				"candidates"
+			],
+			[
+				"pric",
+				"price"
+			],
+			[
+				"ki",
+				"k_i"
+			],
+			[
+				"locat",
+				"location_idx"
+			],
+			[
+				"st",
+				"stop"
+			],
+			[
+				"loca",
+				"location"
+			],
+			[
+				"DEFAU",
+				"UPDATES_DEFAULT"
+			],
+			[
+				"segtr",
+				"segtree"
+			],
+			[
+				"pool",
+				"pool_idx"
+			],
+			[
+				"ara",
+				"array"
+			],
+			[
+				"leaf",
+				"leaf_range"
+			],
+			[
+				"curre",
+				"currents"
+			],
+			[
+				"init",
+				"initialize"
+			],
+			[
+				"right",
+				"right_range"
+			],
+			[
+				"left",
+				"left_range"
+			],
+			[
+				"upda",
+				"updates_zero"
+			],
+			[
+				"mo",
+				"__modulo"
+			],
+			[
+				"nextpow",
+				"next_pow_of"
+			],
+			[
+				"eleme",
+				"element"
+			],
+			[
+				"max",
+				"max_display"
+			],
+			[
+				"defaul",
+				"default_factory"
+			],
+			[
+				"op",
+				"update_op"
+			],
+			[
+				"power",
+				"next_power"
+			],
+			[
+				"end",
+				"end_idx"
+			],
+			[
+				"subset",
+				"subset"
+			],
+			[
+				"pad",
+				"pad"
+			],
+			[
+				"ele",
+				"element"
+			],
+			[
+				"elem",
+				"element"
+			],
+			[
+				"su",
+				"subset_slice"
+			],
+			[
+				"le",
+				"levels"
+			],
+			[
+				"reduce",
+				"reduce_op"
+			],
+			[
+				"Seg",
+				"SegTree"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"font-",
+				"font-weight"
+			],
+			[
+				"transf",
+				"transform"
+			],
+			[
+				"co",
+				"cover"
+			],
+			[
+				"gcd",
+				"gcd_stack"
+			],
+			[
+				"mx",
+				"maxsize"
+			],
+			[
+				"fre",
+				"frequencies"
+			],
+			[
+				"freq",
+				"frequencies"
+			],
+			[
+				"e",
+				"each"
+			],
+			[
+				"next",
+				"next_result"
+			],
+			[
+				"cur",
+				"current_index"
+			],
+			[
+				"cu",
+				"current_index"
+			],
+			[
+				"stand",
+				"standard_gcd"
+			],
+			[
+				"sta",
+				"standard_gcd"
+			],
+			[
+				"prev",
+				"prev_sums"
+			],
+			[
+				"row",
+				"row_start"
+			],
+			[
+				"rwo",
+				"row_start"
+			],
+			[
+				"k",
+				"k_end"
+			],
+			[
+				"perspective",
+				"perspective-origin"
+			],
+			[
+				"camera",
+				"camera_error"
+			],
+			[
+				"add",
+				"add_div"
+			],
+			[
+				"ease",
+				"ease-out"
+			],
+			[
+				"SOR",
+				"SOURCE"
+			],
+			[
+				"consl",
+				"console"
+			],
+			[
+				"open",
+				"open_file"
+			],
+			[
+				"crea",
+				"createObjectURL"
+			],
+			[
+				"curr",
+				"current"
+			],
+			[
+				"ideal",
+				"ideal_filter_pyramid"
+			],
+			[
+				"get",
+				"getBoundingClientRect"
+			],
+			[
+				"loa",
+				"loaded"
+			],
+			[
+				"show",
+				"show_original"
+			],
+			[
+				"fill",
+				"fill-opacity"
+			],
+			[
+				"que",
+				"queued_set"
+			],
+			[
+				"upsa",
+				"upsampled"
+			],
+			[
+				"botto",
+				"bottoms"
+			],
+			[
+				"spectr",
+				"spectra"
+			],
+			[
+				"spec",
+				"spectra"
+			],
+			[
+				"Thre",
+				"Threshold"
+			],
+			[
+				"log",
+				"log1p"
+			],
+			[
+				"DCTB",
+				"DCT_BUFFER_list"
+			],
+			[
+				"BUFF",
+				"DCT_BUFFER"
+			],
+			[
+				"lit",
+				"DCT_BUFFER_list"
+			],
+			[
+				"rel",
+				"reflect_x"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"use",
+				"use_pyramid_level"
+			],
+			[
+				"new",
+				"new_depth"
+			],
+			[
+				"leng",
+				"length-1"
+			],
+			[
+				"DC",
+				"DCT_BUFFER"
+			],
+			[
+				"newest",
+				"newest_frame"
+			],
+			[
+				"time",
+				"time_point"
+			],
+			[
+				"fhigh",
+				"f_high_"
+			],
+			[
+				"f_low",
+				"f_low_"
+			],
+			[
+				"len",
+				"length-1"
+			],
+			[
+				"neew",
+				"newest_frame"
+			],
+			[
+				"app",
+				"appent_to"
+			],
+			[
+				"iir",
+				"iir_bandpass_filter_pyramid"
+			],
+			[
+				"class",
+				"className"
+			],
+			[
+				"elemen",
+				"element"
+			],
+			[
+				"flo",
+				"f_low"
+			],
+			[
+				"transor",
+				"transform"
+			],
+			[
+				"amp",
+				"amplification_factor_"
+			],
+			[
+				"n",
+				"none"
+			],
+			[
+				"blur",
+				"blur-radius"
+			],
+			[
+				"frame",
+				"frames_filtered"
+			],
+			[
+				"weight_a_ate",
+				"weight_b_attenuated"
+			],
+			[
+				"weight",
+				"weight_a"
+			],
+			[
+				"animat",
+				"animation-play-state"
+			],
+			[
+				"fontsy",
+				"font-style"
+			],
+			[
+				"sti",
+				"sticky"
+			],
+			[
+				"hide",
+				"hide_original"
+			],
+			[
+				"f",
+				"flex"
+			],
+			[
+				"elme",
+				"element"
+			],
+			[
+				"output",
+				"output"
+			],
+			[
+				"Sour",
+				"SOURCE"
+			],
+			[
+				"out",
+				"OUTPUT_"
+			],
+			[
+				"ig",
+				"img"
+			],
+			[
+				"endD",
+				"endDrag"
+			],
+			[
+				"dragg",
+				"dragging"
+			],
+			[
+				"endDra",
+				"endDrag_"
+			],
+			[
+				"style",
+				"style_scale"
+			],
+			[
+				"sour",
+				"SOURCE"
+			],
+			[
+				"fl",
+				"flex-start"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "uf20-91/uf20-01.cnf",
+			"settings":
+			{
+				"buffer_size": 1169,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lol.py",
+			"settings":
+			{
+				"buffer_size": 1463,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Java HW3",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Java HW3",
+					""
+				],
+				[
+					"Java HW3",
+					"Run"
+				],
+				[
+					"Java HW3",
+					"Server+Client"
+				],
+				[
+					"Packages/Java/Ant.sublime-build",
+					""
+				],
+				[
+					"Packages/Java/JavaC.sublime-build",
+					""
+				],
+				[
+					"Packages/Java/JavaC.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Java HW3",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Java HW3",
+					""
+				],
+				[
+					"Java HW3",
+					"Run"
+				],
+				[
+					"Packages/Java/Ant.sublime-build",
+					""
+				],
+				[
+					"Packages/Java/JavaC.sublime-build",
+					""
+				],
+				[
+					"Packages/Java/JavaC.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Java HW3",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/User/C99 on Linux.sublime-build",
+					""
+				],
+				[
+					"Packages/User/C99 on Linux.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/User/C99 on Linux.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"SDL2",
+					""
+				],
+				[
+					"SDL2",
+					"Run"
+				]
+			],
+			[
+				"SDL2",
+				"Run"
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 686.0,
+		"last_filter": "sspy",
+		"selected_items":
+		[
+			[
+				"sspy",
+				"Set Syntax: Python"
+			],
+			[
+				"java",
+				"Set Syntax: Java"
+			],
+			[
+				"dle",
+				"File: Delete"
+			],
+			[
+				"dlee",
+				"File: Delete"
+			],
+			[
+				"ssjava",
+				"Set Syntax: Java"
+			],
+			[
+				"dele",
+				"File: Delete"
+			],
+			[
+				"pro",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"ssjaa",
+				"Set Syntax: Java"
+			],
+			[
+				"ssyhtt",
+				"Set Syntax: HTML"
+			],
+			[
+				"delete",
+				"File: Delete"
+			],
+			[
+				"move",
+				"Quick File Move: Move Current File"
+			],
+			[
+				"ssycss",
+				"Set Syntax: CSS"
+			],
+			[
+				"ssc",
+				"Set Syntax: C++"
+			],
+			[
+				"ss",
+				"Set Syntax: C++"
+			],
+			[
+				"ssjon",
+				"Set Syntax: JSON"
+			],
+			[
+				"ssyc++",
+				"Set Syntax: C++"
+			],
+			[
+				"ssbash",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"ssybash",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"ssyjs",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"ssyc",
+				"Set Syntax: C"
+			],
+			[
+				"packagelist",
+				"Package Control: List Packages"
+			],
+			[
+				"ssytask",
+				"Set Syntax: Task"
+			],
+			[
+				"deel",
+				"File: Delete"
+			],
+			[
+				"tabs",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"ssymake",
+				"Set Syntax: Makefile Plus"
+			],
+			[
+				"prettify",
+				"HTMLPrettify"
+			],
+			[
+				"ssyjo",
+				"Set Syntax: JSON"
+			],
+			[
+				"pretty",
+				"HTMLPrettify"
+			],
+			[
+				"ssyjos",
+				"Set Syntax: JSON"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"markdown",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"ssymarkd",
+				"Set Syntax: Markdown"
+			],
+			[
+				"spaces",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"brow",
+				"Browse Mode..."
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"rename",
+				"File: Rename"
+			],
+			[
+				"indent",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"converttospace",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"make",
+				"Set Syntax: Makefile Plus"
+			],
+			[
+				"converspa",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"conspace",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"",
+				"About"
+			],
+			[
+				"reind",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"reinde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"pcip",
+				"Package Control: Install Package"
+			],
+			[
+				"reindent",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"mak",
+				"Set Syntax: Makefile Plus"
+			],
+			[
+				"sstc",
+				"Set Syntax: Tcl"
+			],
+			[
+				"makefi",
+				"Set Syntax: Makefile Plus"
+			],
+			[
+				"prv",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"makefile",
+				"Set Syntax: Makefile Improved"
+			],
+			[
+				"easy",
+				"EasyClangComplete: Open completion triggers location"
+			],
+			[
+				"to spcaes",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"plain",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"plaint",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"markdownpreiew",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"dependen",
+				"Package Control: Satisfy Dependencies"
+			],
+			[
+				"package remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"ssymark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"packalist",
+				"Package Control: List Packages"
+			],
+			[
+				"convert to ",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"prov",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"syntax check",
+				"Build With: Python - Syntax Check"
+			],
+			[
+				"package depend",
+				"Package Control: Satisfy Dependencies"
+			],
+			[
+				"package list",
+				"Package Control: List Packages"
+			],
+			[
+				"prvo",
+				"Package Control: Discover Packages"
+			],
+			[
+				"papckage",
+				"Package Control: List Packages"
+			],
+			[
+				"ssyc im",
+				"Set Syntax: C Improved"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"skin",
+				"UI: Select Skin"
+			],
+			[
+				"color ",
+				"UI: Select Color Scheme"
+			],
+			[
+				"convert to s",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"convert t o",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"pvo",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"convert ",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"ssmake",
+				"Set Syntax: Makefile"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"ssmakef",
+				"Set Syntax: Makefile"
+			],
+			[
+				"favori",
+				"Favorite Files: Add File(s)"
+			],
+			[
+				"remove pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"open",
+				"iOpener: Find File"
+			],
+			[
+				"bookmark",
+				"Bookmarks: Select Next"
+			],
+			[
+				"ssymat",
+				"Set Syntax: MATLAB"
+			],
+			[
+				"matlab",
+				"Set Syntax: MATLAB"
+			],
+			[
+				"status",
+				"Indexing Status"
+			],
+			[
+				"convert tab",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"delt",
+				"File: Delete"
+			],
+			[
+				"ssymatl",
+				"Set Syntax: MATLAB"
+			],
+			[
+				"ssy",
+				"Set Syntax: SCSS"
+			],
+			[
+				"ssy mat",
+				"Set Syntax: MATLAB"
+			],
+			[
+				"deleet",
+				"File: Delete"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"ssy c",
+				"Set Syntax: C"
+			],
+			[
+				"conv",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"convert",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"reind\t",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"ren",
+				"File: Rename"
+			],
+			[
+				"ss cy",
+				"Set Syntax: C"
+			],
+			[
+				"key",
+				"Preferences: Key Bindings"
+			],
+			[
+				"pr",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"rena",
+				"File: Rename"
+			],
+			[
+				"rei\t",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"reindet",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"move file",
+				"Quick File Move: Move Current File"
+			],
+			[
+				"package",
+				"Package Control: List Unmanaged Packages"
+			],
+			[
+				"cnvert tab",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"renam",
+				"File: Rename"
+			],
+			[
+				"ssjs",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"reinden",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"install pac\t",
+				"Package Control: Install Package"
+			],
+			[
+				"settings",
+				"Preferences: Settings"
+			],
+			[
+				"latextool",
+				"LaTeXTools: Check system"
+			],
+			[
+				"latex",
+				"Set Syntax: LaTeX"
+			],
+			[
+				"rena\t",
+				"File: Rename"
+			],
+			[
+				"packremove",
+				"Package Control: Remove Package"
+			],
+			[
+				"rename\t",
+				"File: Rename"
+			],
+			[
+				"renm",
+				"File: Rename"
+			],
+			[
+				"sscuda",
+				"Set Syntax: CUDA C++"
+			],
+			[
+				"provo",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"cuda",
+				"Set Syntax: CUDA C++"
+			],
+			[
+				"upgra",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"update",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"sscud",
+				"Set Syntax: CUDA C++"
+			],
+			[
+				"ssc++",
+				"Set Syntax: C++"
+			],
+			[
+				"renma",
+				"File: Rename"
+			]
+		],
+		"width": 831.0
+	},
+	"console":
+	{
+		"height": 455.0,
+		"history":
+		[
+			"sum ([120,   3628800, 479001600, 720,   720,   479001600, 120,   6,     120])",
+			"sum ([24,    6,     24,    362880, 39916800, 24, 24,   3628800])",
+			"sum ([2,     5040,  362880, 2,    2,     40320, 6,     1,     6,     2,     24,    2,     6])",
+			"sum ([2,     5040,  362880, 2,    2 ])",
+			"sum ([1,     1,     2,     5040,  362880, 2,    2,     40320, 6,     1,     6])",
+			"sum ([1, 2, 5040, 362880, 2, 2, 40320, 6, 1, 6])",
+			"sum (1,2,3)",
+			"sum ([2,5040,362880, 2])",
+			"sum([2,5040,362880, 2,    40320, 2,     2])",
+			"[print(each) for each in globals ().items ()]",
+			"[print(each) for each in globals ()]",
+			"for each in globals (): print (each)",
+			"globals ()",
+			"bin (45)",
+			"bin (27)",
+			"bin (20)",
+			"((1024 * 1024 * 4) * (4) * (4 * 4/3) + (1024 * 1024 * 4) * (1) * (3 * 4/3))/1024/1024",
+			"((1024 * 1024 * 4) * (4) * (4 * 4/3) + (1024 * 1024 * 4) * (1) * (3 * 4/3))/1024",
+			"(1024 * 1024 * 4) * (4) * (4 * 4/3) + (1024 * 1024 * 4) * (1) * (3 * 4/3)",
+			"HTML.html_completions.Unittest.run()",
+			"import HTML.html_completions",
+			"HTML.html_completions.Unittest.run()",
+			"import HTML.html_completions",
+			"print (sublime.cache_path())",
+			"print sublime.cache_path()",
+			"sublime.cache_path()",
+			"def debug(func_name):",
+			"import os; os.system('bash -c \"bin/threads.v1 500000\" && pause')",
+			"import os; os.system('bash -c \"bin/threads.v0 500000\" && pause')",
+			"import os; os.system('bash -c \"bin/threads.v0 5000\" && pause')",
+			"import os; os.system('bash -c \"bin/threads.v1 5\" && pause')",
+			"import os; os.system('bash -c \"bin/threads.v0 6\" && pause')",
+			"import os; os.system('bash -c \"bin/threads.v0 5\" && pause')",
+			"import os; os.system('bash -c \"bin/threads.v0 5\"')",
+			"os.system('echo hi && echo %PATH% && pause')",
+			"os.system('echo hi && echo %file_path% && pause')",
+			"os.system('echo hi && echo $file_path && pause')",
+			"os.system('echo hi && echo $file_path || pause')",
+			"os.system('echo hi && $file_path || pause')",
+			"os.system('echo hi && $file_path && pause')",
+			"os.system('echo hi && $file_path')",
+			"os.system('echo hi && pause')",
+			"os.system('echo hi')",
+			"os.sys('echo hi')",
+			"import os",
+			"40*1024/25",
+			"a.geturl()",
+			"a= parse.urlparse(\"htadftp://google.com/helloworld/yes.html\")",
+			"a.geturl()",
+			"a= parse.urlparse(\"http://google.com/helloworld/yes.html\")",
+			"a.geturl()",
+			"a.count(12)",
+			"a.count(1)",
+			"dir(a.count)",
+			"help(a.count)",
+			"a.count()",
+			"a.count",
+			"a= parse.urlparse(\"http://google.com\")",
+			"dir(_)",
+			"_",
+			"parse.urlparse(\"http://google.com\")",
+			"globals()",
+			"parse.urlparse(\"https://computing.llnl.gov/tutorials/parallel_comp/\").geturl",
+			"parse.urlparse(\"https://computing.llnl.gov/tutorials/parallel_comp/\").netloc",
+			"dir(parse.urlparse(\"https://computing.llnl.gov/tutorials/parallel_comp/\"))",
+			"parse.urlparse(\"https://computing.llnl.gov/tutorials/parallel_comp/\")",
+			"from urllib import parse",
+			"del(urlparse)",
+			"delete urlparse",
+			"urlparse(\"https://computing.llnl.gov/tutorials/parallel_comp/\")",
+			"from urllib.parse import urlparse",
+			"dir(sys)",
+			"globals()",
+			"del(timings,time)",
+			"globals()",
+			"del(a)",
+			"delete a",
+			"globals()",
+			"dir(sys)",
+			"help(argv)",
+			"sys.help()",
+			"sys.argv.help()",
+			"help(sys)",
+			"help(sys.argv)",
+			"import sys",
+			"dir(str)",
+			"dir(str.decode)",
+			"dir(decode)",
+			"help str.decode",
+			"help (str.decode)",
+			"a.pop()",
+			"a =[]",
+			"a =[",
+			"a.pop()",
+			"a = []",
+			"timings = []",
+			"a",
+			"a.pop()",
+			"a=[1,2]",
+			"time.clock()",
+			"time.gmtime(0)",
+			"import time",
+			"import scrape_to_csv",
+			"%run scrape_to_csv",
+			"%run scrape_to_csv.py",
+			"a = input('hello')",
+			"print(a)",
+			"a+=2",
+			"a = 1",
+			"list(zip([1,2,3],[['a',1],['b',2],['c',3]]))",
+			"' '.join(['adf',3])",
+			"url",
+			"address = '2525 W Anderson Ln, Austin, TX 78757'",
+			"def myfunc(a):\\ a=2\\ return a",
+			"def myfunc(a):\\a=2\\return a",
+			"def myfunc(a):",
+			"' '.join(['adf','adf'])",
+			"'error code {:d}'.format(404)",
+			"'adsadgagd'[2+4:10]",
+			"'adsadgagd'[2+4:9]",
+			"'adsfsd'.find('s',3)",
+			"'adsfsd'.find('s',2)",
+			"'adsfsd'[:'adsfsd'.index('fsd')]",
+			"'adsfsd'['adsfsd'.index('fsd')]",
+			"'adsfsd'[index('fsd')]",
+			"'adsfsd'.substr(index('fsd'))",
+			"'adsfsd'.index('fsd')",
+			"'a df\\nadf'.split('\\n')"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": false,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/spenc/OneDrive/Programming/SAT"
+	],
+	"file_history":
+	[
+		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/lib/encoded_mod_factorial.py",
+		"/C/Users/spenc/AppData/Local/Temp/Temp1_results.zip/results/1FlipHC/uf020-01/uf020-01_1FlipHC_01.txt",
+		"/C/Users/spenc/OneDrive/songs.txt",
+		"/C/Users/spenc/OneDrive/Documents/Spring 2018/360P/EE360P_hw3/TCPThread.java",
+		"/C/Users/spenc/OneDrive/Documents/Spring 2018/360P/EE360P_hw3/BookServer.java",
+		"/C/Users/spenc/OneDrive/Documents/Spring 2018/360P/EE360P_hw3/inventory.txt",
+		"/C/Users/spenc/OneDrive/Documents/Spring 2018/360P/EE360P_hw3/BookClient.java",
+		"/C/Users/spenc/OneDrive/Documents/Spring 2018/360P/EE360P_hw3/out_2.txt",
+		"/C/Users/spenc/OneDrive/Documents/Spring 2018/360P/EE360P_hw3/out_1.txt",
+		"/C/Users/spenc/OneDrive/Documents/Spring 2018/360P/EE360P_hw3/build.sh",
+		"/C/Users/spenc/OneDrive/Documents/Spring 2018/360P/EE360P_hw3/tests/test1.sh",
+		"/C/Users/spenc/OneDrive/Documents/Spring 2018/360P/EE360P_hw3/Config.java",
+		"/C/Users/spenc/OneDrive/Documents/Spring 2018/360P/EE360P_hw3/UDPThread.java",
+		"/C/Users/spenc/OneDrive/Documents/Spring 2018/360P/EE360P_hw3/UDPListener.java",
+		"/C/Users/spenc/OneDrive/Documents/Spring 2018/360P/EE360P_hw3/TCPListener.java",
+		"/C/Users/spenc/OneDrive/Documents/Spring 2018/360P/EE360P_hw3/DumbRequirements.java",
+		"/C/Users/spenc/OneDrive/Documents/Spring 2018/360P/EE360P_hw3/tests/test1_client2.txt",
+		"/C/Users/spenc/OneDrive/Documents/Spring 2018/360P/EE360P_hw3/tests/test1_client1.txt",
+		"/C/Users/spenc/OneDrive/Documents/Spring 2018/360P/EE360P_hw3/Pair.java",
+		"/C/Users/spenc/OneDrive/Documents/Spring 2018/360P/EE-360P/hadoop/examples/BaileyBorweinPlouffe.java",
+		"/C/Users/spenc/OneDrive/Documents/Spring 2018/360P/EE360P_hw3/a.txt",
+		"/C/Users/spenc/OneDrive/Documents/Spring 2018/360P/EE360P_hw3/testing",
+		"/C/Users/spenc/OneDrive/Documents/Spring 2018/360P/EE-360P/chapter6-distributed_programming/DatagramServer.java",
+		"/C/Users/spenc/OneDrive/Documents/Spring 2018/360P/EE-360P/chapter6-distributed_programming/DatagramClient.java",
+		"/C/Users/spenc/OneDrive/Documents/Spring 2018/360P/EE360P_hw3/hw3.sublime-project",
+		"/C/Users/spenc/OneDrive/Documents/Spring 2018/360P/EE360P_hw3/bla.txt",
+		"/C/Users/spenc/OneDrive/Documents/Spring 2018/360P/EE360P_hw3/input.txt",
+		"/C/Users/spenc/AppData/Roaming/Sublime Text 3/Packages/User/C99 on Linux.sublime-build",
+		"/C/Users/spenc/AppData/Roaming/Sublime Text 3/Packages/C++/C++ Single File.sublime-build",
+		"/C/Users/spenc/AppData/Roaming/Sublime Text 3/Packages/Java/JavaC.sublime-build",
+		"/C/Users/spenc/OneDrive/Documents/Spring 2018/360P/EE360P_hw3/.gitignore",
+		"/C/Users/spenc/OneDrive/Programming/apps to make.txt",
+		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/university codesprint4/drawing rectangles/soln.py",
+		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/lib/segtree/LazySegTree.py",
+		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/lib/segtree/SegTree.py",
+		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/university codesprint4/drawing rectangles/sample2.txt",
+		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/university codesprint4/drawing rectangles/sample2.txt.exp",
+		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/university codesprint4/drawing rectangles/sample0.txt.exp",
+		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/university codesprint4/drawing rectangles/sample1.txt",
+		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/university codesprint4/drawing rectangles/sample1.txt.exp",
+		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/lib/prefix_array.py",
+		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/university codesprint4/drawing rectangles/sample0.txt",
+		"/C/Users/spenc/OneDrive/Documents/Spring 2018/360P/midterm 1/FifoLock.java",
+		"/C/Users/spenc/OneDrive/Documents/Spring 2018/360P/midterm 1/OldBridge.java",
+		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/w36/expert computation/sample1.txt",
+		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/w36/expert computation/soln.py",
+		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/w36/a race against time/soln.py",
+		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/w36/expert computation/sample1.txt.exp",
+		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/w36/expert computation/sample0.txt",
+		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/w36/expert computation/sample0.txt.exp",
+		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/w36/cut a strip/soln.cpp",
+		"/C/Users/spenc/AppData/Roaming/Sublime Text 3/Packages/FileBrowser/dired.sublime-settings",
+		"/C/Users/spenc/AppData/Roaming/Sublime Text 3/Packages/User/dired.sublime-settings",
+		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/w36/cut a strip/soln.py",
+		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/w36/cut a strip/input43.txt",
+		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/w36/cut a strip/input43.txt.exp",
+		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/w36/cut a strip/input18.txt",
+		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/w36/cut a strip/input18.txt.exp",
+		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/w36/cut a strip/soln.c",
+		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/w36/cut a strip/sample0.txt",
+		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/w36/cut a strip/sample1.txt",
+		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/w36/cut a strip/input10.txt.exp",
+		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/w36/cut a strip/sample2.txt",
+		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/w36/a race against time/sample0.txt",
+		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/w36/cut a strip/input10.txt",
+		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/w36/cut a strip/sample1.txt.exp",
+		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/w36/cut a strip/input3.txt.exp",
+		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/w36/cut a strip/input3.txt",
+		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/w36/cut a strip/sample2.txt.exp",
+		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/lib/hacktest",
+		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/codesprint12/factorial array/test.py",
+		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/codesprint12/factorial array/soln.py",
+		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/w36/cut a strip/sample0.txt.exp",
+		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/hr26/cloudy day/soln.py",
+		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/w36/a race against time/test_all.py",
+		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/w36/a race against time/soln.old.py",
+		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/w36/a race against time/submission.py",
+		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/w36/a race against time/custom15.txt.exp",
+		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/w36/a race against time/custom15.txt",
+		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/w36/a race against time/custom14.txt.exp",
+		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/w36/a race against time/custom14.txt",
+		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/w36/ways to give a check/custom0.txt.diff",
+		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/w36/a race against time/input6.txt.exp",
+		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/w36/a race against time/input6.txt",
+		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/w36/a race against time/input7.txt.exp",
+		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/w36/a race against time/input7.txt",
+		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/w36/a race against time/input5.txt",
+		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/w36/a race against time/input5.txt.expected",
+		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/w36/a race against time/custom2.txt.expected",
+		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/w36/a race against time/custom1.txt.expected",
+		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/w36/a race against time/custom1.txt",
+		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/w36/a race against time/custom2.txt",
+		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/w36/a race against time/custom3.txt",
+		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/w36/a race against time/custom4.txt",
+		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/w36/a race against time/sample1.txt.expected",
+		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/w36/a race against time/sample1.txt",
+		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/w36/a race against time/custom0.txt",
+		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/w36/a race against time/custom13.txt",
+		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/w36/a race against time/custom8.txt",
+		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/w36/a race against time/custom13.txt.expected",
+		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/w36/a race against time/custom12.txt",
+		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/w36/a race against time/custom12.txt.expected",
+		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/w36/a race against time/custom7.txt.expected",
+		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/w36/a race against time/custom7.txt",
+		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/w36/a race against time/custom10.txt.expected",
+		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/w36/a race against time/custom10.txt",
+		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/w36/a race against time/custom11.txt",
+		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/w36/a race against time/custom11.txt.expected",
+		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/w36/a race against time/custom9.txt",
+		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/w36/a race against time/custom9.txt.expected",
+		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/w36/a race against time/custom8.txt.expected",
+		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/w36/a race against time/custom5.txt.expected",
+		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/w36/a race against time/custom5.txt",
+		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/w36/a race against time/custom6.txt.expected",
+		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/w36/a race against time/custom6.txt",
+		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/w36/a race against time/custom4.txt.expected",
+		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/w36/a race against time/custom0.txt.expected",
+		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/w36/a race against time/custom3.txt.expected",
+		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/w36/a race against time/sample0.txt.expected",
+		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/w36/ways to give a check/custom1.txt",
+		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/w36/ways to give a check/custom1.txt.expected",
+		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/w36/ways to give a check/custom0.txt",
+		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/w36/ways to give a check/soln.py",
+		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/w36/ways to give a check/sample0.txt.expected",
+		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/w36/ways to give a check/sample0.txt",
+		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/w36/ways to give a check/custom0.txt.expected",
+		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/hr26/Cloudy Day/soln.py",
+		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/hr26/Cloudy Day/submission.py"
+	],
+	"find":
+	{
+		"height": 73.0
+	},
+	"find_in_files":
+	{
+		"height": 242.0,
+		"where_history":
+		[
+			"",
+			".",
+			"EE360P_hw3",
+			"EE360P",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"self.idx",
+			"/c",
+			"HEADER_SIZE",
+			"BLOCK_SIZE",
+			"CONTENT_SIZE",
+			"CONTENT",
+			" \\n",
+			"UDPThread.",
+			"BLOCK",
+			"; ",
+			"out_1",
+			"\"\\n\"",
+			"log.print",
+			"0",
+			" \\",
+			"test1",
+			"System.err.println (\"Server aborted:\" + e);",
+			"Server aborted",
+			"-cp ",
+			"echo ",
+			"java.exe -",
+			" <\\S",
+			"\\S<",
+			"\\S\\(",
+			"\\S<",
+			"\\S\\(",
+			"boolean",
+			"      //",
+			"= String",
+			"String",
+			"response",
+			"Packet",
+			"hostAddress",
+			"minBlock = Math.min (minBlock, result.length () - UDPThread.HEADER_SIZE);",
+			"toString ()",
+			"result.length",
+			".length",
+			"min",
+			"static",
+			"conne",
+			", result.length))",
+			"CONTENT_SIZE);",
+			"i",
+			"BLOCKSIZE",
+			"int",
+			"final static ",
+			"result",
+			"BLOCKS",
+			"LEN",
+			"BLOCKSIZE-10",
+			"blockSize",
+			"result =",
+			"sb.append (each);",
+			".getBytes ()",
+			"result = \"\";",
+			"new bytes[0]",
+			"request",
+			"result",
+			"response",
+			"listener",
+			"packet",
+			"datapacket",
+			"command",
+			"result =",
+			"result = ",
+			"out.println",
+			"Socket",
+			"datasocket",
+			"Server",
+			"\\S\\(",
+			"new File",
+			"final",
+			"Listener",
+			"scanner",
+			"out.println (",
+			"s",
+			"static ",
+			"Server",
+			"\\S\\(",
+			"\"[^\"\\n]+\"",
+			"\"[^\"]+\"",
+			"\"[^\"]\"",
+			")\n  {",
+			"Stream",
+			"Writer",
+			"Stream",
+			"Writer",
+			"()",
+			");",
+			"connect",
+			"clientId",
+			"while",
+			"}",
+			"connect",
+			"clientId",
+			"con",
+			"Server",
+			"ServerThread",
+			";/",
+			"clientId",
+			"String clientId, ",
+			"while",
+			"s)",
+			"ket ()",
+			"cmd",
+			"sc",
+			";",
+			"final",
+			"private",
+			"ServerThread",
+			"stud",
+			"// ",
+			"Tuple",
+			"  <",
+			"<",
+			"tokens[0]",
+			"\\bsc\\b",
+			"clientOut",
+			"theClient",
+			"pout",
+			"System",
+			"\\bst\\b",
+			"st",
+			"sc",
+			"} ",
+			" {",
+			"\\S\\(",
+			"( "
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "uf20-91/uf20-01.cnf",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1169,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								130,
+								130
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "lol.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1463,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								145,
+								145
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 37.0
+	},
+	"input":
+	{
+		"height": 73.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": false,
+	"output.exec":
+	{
+		"height": 427.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.markdown":
+	{
+		"height": 173.0
+	},
+	"pinned_build_system": "",
+	"project": "SAT.sublime-project",
+	"replace":
+	{
+		"height": 130.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"udpt",
+				"EE360P_hw3\\UDPThread.java"
+			],
+			[
+				"confi",
+				"EE360P_hw3\\Config.java"
+			],
+			[
+				"tsh",
+				"EE360P_hw3\\tests\\test1.sh"
+			],
+			[
+				"test1",
+				"EE360P_hw3\\tests\\test1_client2.txt"
+			],
+			[
+				"pai",
+				"EE360P_hw3\\Pair.java"
+			],
+			[
+				"config",
+				"EE360P_hw3\\Config.java"
+			],
+			[
+				"pair",
+				"EE360P_hw3\\Pair.java"
+			],
+			[
+				"inve",
+				"EE360P_hw3\\inventory.txt"
+			],
+			[
+				"out2",
+				"EE360P_hw3\\out_2.txt"
+			],
+			[
+				"a.t",
+				"EE360P_hw3\\a.txt"
+			],
+			[
+				"out",
+				"EE360P_hw3\\out_1.txt"
+			],
+			[
+				"a.txt",
+				"EE360P_hw3\\a.txt"
+			],
+			[
+				"invento",
+				"EE360P_hw3\\inventory.txt"
+			],
+			[
+				"inventor",
+				"EE360P_hw3\\inventory.txt"
+			],
+			[
+				"dataser",
+				"EE-360P\\chapter6-distributed_programming\\DatagramServer.java"
+			],
+			[
+				"datagram",
+				"EE-360P\\chapter6-distributed_programming\\DatagramClient.java"
+			],
+			[
+				"input",
+				"input.txt"
+			],
+			[
+				"inv",
+				"inventory.txt"
+			],
+			[
+				"proje",
+				"hw3.sublime-project"
+			],
+			[
+				"bookserv",
+				"BookServer.java"
+			],
+			[
+				"exp",
+				"university codesprint4\\drawing rectangles\\sample0.txt.exp"
+			],
+			[
+				"lazy",
+				"lib\\segtree\\LazySegTree.py"
+			],
+			[
+				"segtre",
+				"lib\\segtree\\SegTree.py"
+			],
+			[
+				"soln",
+				"w36\\a race against time\\soln.py"
+			],
+			[
+				"so",
+				"w36\\a race against time\\soln.py"
+			],
+			[
+				"solncpp",
+				"w36\\cut a strip\\soln.cpp"
+			],
+			[
+				"sonc",
+				"w36\\cut a strip\\soln.c"
+			],
+			[
+				"10e",
+				"w36\\cut a strip\\input10.txt.exp"
+			],
+			[
+				"sa0",
+				"w36\\cut a strip\\sample0.txt"
+			],
+			[
+				"sam0",
+				"w36\\a race against time\\sample0.txt"
+			],
+			[
+				"sap0",
+				"w36\\cut a strip\\sample0.txt"
+			],
+			[
+				"hacktest",
+				"lib\\hacktest"
+			],
+			[
+				"segt",
+				"lib\\segtree\\SegTree.py"
+			],
+			[
+				"laz",
+				"lib\\segtree\\LazySegTree.py"
+			],
+			[
+				"segtree",
+				"lib\\segtree\\SegTree.py"
+			],
+			[
+				"hak",
+				"lib\\hacktest"
+			],
+			[
+				"sub",
+				"w36\\a race against time\\submission.py"
+			],
+			[
+				"diff",
+				"w36\\ways to give a check\\custom0.txt.diff"
+			],
+			[
+				"hackt",
+				"lib\\hacktest"
+			],
+			[
+				"hac",
+				"lib\\hacktest"
+			],
+			[
+				"cus1",
+				"w36\\a race against time\\custom1.txt"
+			],
+			[
+				"cus1e",
+				"w36\\a race against time\\custom1.txt.expected"
+			],
+			[
+				"2e",
+				"w36\\a race against time\\custom2.txt.expected"
+			],
+			[
+				"s1e",
+				"w36\\a race against time\\sample1.txt.expected"
+			],
+			[
+				"hack",
+				"lib\\hacktest"
+			],
+			[
+				"sa1e",
+				"w36\\a race against time\\sample1.txt.expected"
+			],
+			[
+				"samp1",
+				"w36\\a race against time\\sample1.txt"
+			],
+			[
+				"cus2",
+				"w36\\a race against time\\custom2.txt"
+			],
+			[
+				"cus0",
+				"w36\\a race against time\\custom0.txt"
+			],
+			[
+				"samp",
+				"w36\\a race against time\\sample0.txt"
+			],
+			[
+				"cus4",
+				"w36\\a race against time\\custom4.txt"
+			],
+			[
+				"3",
+				"w36\\a race against time\\custom3.txt"
+			],
+			[
+				"samp0",
+				"w36\\a race against time\\sample0.txt"
+			],
+			[
+				"8",
+				"w36\\a race against time\\custom8.txt"
+			],
+			[
+				"9",
+				"w36\\a race against time\\custom9.txt"
+			],
+			[
+				"submi",
+				"w36\\a race against time\\submission.py"
+			],
+			[
+				"cust4",
+				"w36\\a race against time\\custom4.txt"
+			],
+			[
+				"input17",
+				"hr26\\Cloudy Day\\input17.txt"
+			],
+			[
+				"17",
+				"hr26\\Cloudy Day\\input17.txt.expected"
+			],
+			[
+				"outtxt",
+				"hr26\\Cloudy Day\\out.txt"
+			],
+			[
+				"in1e",
+				"hr26\\Cloudy Day\\input1.txt.expected"
+			],
+			[
+				"inpu2",
+				"hr26\\Cloudy Day\\input2.txt"
+			],
+			[
+				"input2e",
+				"hr26\\Cloudy Day\\input2.txt.expected"
+			],
+			[
+				"input2",
+				"hr26\\Cloudy Day\\input2.txt"
+			],
+			[
+				"sapl",
+				"codesprint12\\factorial array\\sample0.txt"
+			],
+			[
+				"input1",
+				"codesprint12\\factorial array\\input1.txt"
+			],
+			[
+				"ha",
+				"lib\\hacktest"
+			],
+			[
+				"hackte",
+				"lib\\hacktest"
+			],
+			[
+				"input1ex",
+				"codesprint12\\factorial array\\input1.txt.expected"
+			],
+			[
+				"tictoc",
+				"lib\\tictoc.py"
+			],
+			[
+				"facto",
+				"lib\\factorial.py"
+			],
+			[
+				"input5",
+				"codesprint12\\factorial array\\input5.txt.expected"
+			],
+			[
+				"inpu4ex",
+				"codesprint12\\factorial array\\input4.txt.expected"
+			],
+			[
+				"inpu4",
+				"codesprint12\\factorial array\\input4.txt"
+			],
+			[
+				"sap0ex",
+				"codesprint12\\factorial array\\sample0.txt.expected"
+			],
+			[
+				"sampl0ex",
+				"codesprint12\\factorial array\\sample0.txt"
+			],
+			[
+				"smape0",
+				"codesprint12\\factorial array\\sample0.txt"
+			],
+			[
+				"la",
+				"lib\\segtree\\LazySegTree.py"
+			],
+			[
+				"facot",
+				"lib\\factorial.py"
+			],
+			[
+				"sampl",
+				"codesprint12\\factorial array\\sample0.txt"
+			],
+			[
+				"expec",
+				"codesprint12\\factorial array\\sample0.txt.expected"
+			],
+			[
+				"seg",
+				"lib\\segtree\\SegTree.py"
+			],
+			[
+				"init",
+				"lib\\segtree\\__init__.py"
+			],
+			[
+				"hacktst",
+				"lib\\hacktest"
+			],
+			[
+				"in4",
+				"stack\\balanced bracket\\in4_line16.txt.expected"
+			],
+			[
+				".out",
+				"stack\\balanced bracket\\input4.txt.out"
+			],
+			[
+				"",
+				"little_stars.sublime-project"
+			],
+			[
+				"hour",
+				"C:\\Users\\spenc\\OneDrive\\Documents\\Winter 2017\\hourrank17_gcd_matrix.py"
+			],
+			[
+				"prim",
+				"C:\\Users\\spenc\\OneDrive\\Documents\\Winter 2017\\primes_lt_100000.DPCM_compressed.txt"
+			],
+			[
+				"memoryjs",
+				"web\\js\\memory.js"
+			],
+			[
+				"utiljs",
+				"web\\js\\utils.js"
+			],
+			[
+				"styles",
+				"web\\styles.css"
+			],
+			[
+				"style",
+				"web\\styles.css"
+			],
+			[
+				"optionsjs",
+				"web\\js\\options.js"
+			],
+			[
+				"utilsj",
+				"web\\js\\utils.js"
+			],
+			[
+				"setupjs",
+				"web\\js\\setup.js"
+			],
+			[
+				"makefil",
+				"web\\c\\makefile"
+			],
+			[
+				"wasmjs",
+				"web\\c\\wasm.js"
+			],
+			[
+				"wasminit",
+				"web\\js\\wasm_init.js"
+			],
+			[
+				"index",
+				"web\\index.html"
+			],
+			[
+				"bro",
+				"web\\favicons\\browserconfig.xml"
+			],
+			[
+				"xml",
+				"web\\favicons\\browserconfig.xml"
+			],
+			[
+				"manifest",
+				"web\\favicons\\manifest.json"
+			],
+			[
+				"setup",
+				"web\\js\\setup.js"
+			],
+			[
+				"ideal",
+				"web\\js\\ideal_filter.js"
+			],
+			[
+				"idealjs",
+				"web\\js\\ideal_filter.js"
+			],
+			[
+				"utilsjs",
+				"web\\js\\utils.js"
+			],
+			[
+				"idealfjs",
+				"web\\js\\ideal_filter.js"
+			],
+			[
+				"idealfl",
+				"web\\c\\ideal_filter.c"
+			],
+			[
+				"memor",
+				"web\\js\\memory.js"
+			],
+			[
+				"stylecss",
+				"web\\styles.css"
+			],
+			[
+				"videomag",
+				"web\\js\\videomag.js"
+			],
+			[
+				"stylc",
+				"web\\styles.css"
+			],
+			[
+				"contr",
+				"web\\js\\controls.js"
+			],
+			[
+				"opti",
+				"web\\js\\options.js"
+			],
+			[
+				"dates",
+				"C:\\Users\\spenc\\OneDrive\\Documents\\Fall 2017\\379K\\final_project\\data\\unit_sales.dates_inverse.json"
+			],
+			[
+				"task",
+				"web\\todo.task"
+			],
+			[
+				"makefile",
+				"web\\c\\makefile"
+			],
+			[
+				"iir",
+				"web\\js\\iir_filter.js"
+			],
+			[
+				"optio",
+				"web\\js\\options.js"
+			],
+			[
+				"floa",
+				"web\\c\\float.h"
+			],
+			[
+				"uiljs",
+				"web\\js\\utils.js"
+			],
+			[
+				"utilc",
+				"web\\c\\utils.c"
+			],
+			[
+				"colorsh",
+				"web\\c\\color_space.h"
+			],
+			[
+				"colorspacec",
+				"web\\c\\color_space.c"
+			],
+			[
+				"uitlc",
+				"web\\c\\utils.c"
+			],
+			[
+				"blur",
+				"web\\c\\blur_filter.c"
+			],
+			[
+				"memory",
+				"web\\js\\memory.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 875.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Users\\spenc\\OneDrive\\Documents\\Fall 2017\\461S\\OSF17project-george_hari_spencer\\Pintos.sublime-project"
+			]
+		],
+		"width": 665.0
+	},
+	"select_symbol":
+	{
+		"height": 414.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 686.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 382.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
