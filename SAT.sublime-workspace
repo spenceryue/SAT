@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"cal",
+				"clause"
+			],
+			[
 				"clie",
 				"clientId"
 			],
@@ -510,32 +514,11 @@
 			[
 				"sour",
 				"SOURCE"
-			],
-			[
-				"fl",
-				"flex-start"
 			]
 		]
 	},
 	"buffers":
 	[
-		{
-			"file": "uf20-91/uf20-01.cnf",
-			"settings":
-			{
-				"buffer_size": 1169,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "lol.py",
-			"settings":
-			{
-				"buffer_size": 1463,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "Java HW3",
 	"build_system_choices":
@@ -1321,6 +1304,10 @@
 	],
 	"file_history":
 	[
+		"/C/Users/spenc/OneDrive/Programming/SAT/lol.py",
+		"/C/Users/spenc/OneDrive/Programming/SAT/uf20-91/uf20-01.cnf",
+		"/C/Users/spenc/OneDrive/Programming/SAT/demo.txt",
+		"/C/Users/spenc/OneDrive/Programming/SAT/.gitignore",
 		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/lib/encoded_mod_factorial.py",
 		"/C/Users/spenc/AppData/Local/Temp/Temp1_results.zip/results/1FlipHC/uf020-01/uf020-01_1FlipHC_01.txt",
 		"/C/Users/spenc/OneDrive/songs.txt",
@@ -1444,11 +1431,7 @@
 		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/w36/ways to give a check/custom1.txt.expected",
 		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/w36/ways to give a check/custom0.txt",
 		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/w36/ways to give a check/soln.py",
-		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/w36/ways to give a check/sample0.txt.expected",
-		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/w36/ways to give a check/sample0.txt",
-		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/w36/ways to give a check/custom0.txt.expected",
-		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/hr26/Cloudy Day/soln.py",
-		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/hr26/Cloudy Day/submission.py"
+		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/w36/ways to give a check/sample0.txt.expected"
 	],
 	"find":
 	{
@@ -1471,6 +1454,16 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"column",
+			"row",
+			"self.",
+			"self.row",
+			", ",
+			"each",
+			"init",
+			"i",
+			"in",
+			"input",
 			"self.idx",
 			"/c",
 			"HEADER_SIZE",
@@ -1588,17 +1581,7 @@
 			"<",
 			"tokens[0]",
 			"\\bsc\\b",
-			"clientOut",
-			"theClient",
-			"pout",
-			"System",
-			"\\bst\\b",
-			"st",
-			"sc",
-			"} ",
-			" {",
-			"\\S\\(",
-			"( "
+			"clientOut"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1616,73 +1599,13 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "uf20-91/uf20-01.cnf",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1169,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								130,
-								130
-							]
-						],
-						"settings":
-						{
-							"apply_syntax_touched": true,
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				}
 			]
 		},
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 1,
-					"file": "lol.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1463,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								145,
-								145
-							]
-						],
-						"settings":
-						{
-							"apply_syntax_touched": true,
-							"syntax": "Packages/Python/Python.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
