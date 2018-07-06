@@ -1,3 +1,16 @@
+body
+{
+  margin: 0;
+}
+
+canvas
+{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
 div
 {
   display: flex;
@@ -8,14 +21,17 @@ div
   min-width: 2rem;
   min-height: 2rem;
   text-align: center;
-  font-family: 'Ubuntu Mono';
+  font-family: 'Ubuntu Mono', sans-serif;
   box-sizing: border-box;
+  transition: all .1s linear;
 }
 
 .container
 {
+  position: absolute;
   height: 100%;
   width: 100%;
+  margin: 0;
   border: none;
 }
 
