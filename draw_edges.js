@@ -45,6 +45,8 @@ async function init ()
   // Start rendering edges
   minOpacity = .1;
   animation_id = requestAnimationFrame (render);
+
+  console.log ('init() called.')
 }
 
 
@@ -63,6 +65,8 @@ function resize ()
   // Rendering scale, pixels to half opacity
   half = .05 * (canvas.width + canvas.height) / 2;
   half = 1 / half;
+
+  console.log ('resize() called.')
 }
 
 
@@ -80,6 +84,7 @@ function set_positions ()
     radius = width / 2;
   }
 
+  console.log ('set_positions() called.')
 }
 
 
@@ -92,6 +97,7 @@ function render ()
   }
 
   let t = performance.now ();
+
   let canvas = ctx.canvas;
   ctx.clearRect (0, 0, canvas.width, canvas.height);
   dirty = false;
@@ -125,6 +131,7 @@ function render ()
       count++;
     }
   }
+
   t = performance.now () - t;
   console.log (`${count} edges drawn in ${t.toFixed (2)}ms`);
 
