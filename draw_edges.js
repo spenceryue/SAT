@@ -132,9 +132,9 @@ function render ()
       opacity = Math.max (opacity, minOpacity);
 
       // Interpolate colors and linewidth (scaling with opacity)
-      let [r, g, b] = [opacity * (128 - 64) + 64,
-                       opacity * (176 - 128) + 128,
-                       opacity * (255 - 255) + 255];
+      let [r, g, b] = [opacity * (64 - 64) + 64,
+                       opacity * (192 - 128) + 128,
+                       opacity * (64 - 255) + 255];
       ctx.strokeStyle = `rgba(${r}, ${g}, ${b}, ${opacity})`;
       ctx.lineWidth = opacity * (3 - 1) + 1;
 
