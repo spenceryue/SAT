@@ -241,6 +241,9 @@ function render ()
   // Queue next frame
   ANIMATION_ID = requestAnimationFrame (render);
 
+  // Make params from console.
+  // Note: Cannot change values from window variables,
+  // because these are copied by value not by reference.
   window.CTX          = CTX;
   window.ADJACENCIES  = ADJACENCIES;
   window.NODES        = NODES;
@@ -327,6 +330,7 @@ function LOG (level, ...args)
 }
 
 
+// Make these functions available from the console.
 window.highlight = highlight;
 window.any = any;
 window.all = all;
