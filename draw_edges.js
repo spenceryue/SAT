@@ -11,8 +11,9 @@ let CTX,
     MOUSE,
     HALF,
     RADIUS,
-    MIN_OPACITY,
-    RENDER_STATS;
+    MIN_OPACITY = .1,
+    MIN_HIGHLIGHT_OPACITY = .5,
+    LOG_LEVEL = 0;
 
 async function init ()
 {
@@ -47,12 +48,10 @@ async function init ()
   });
 
   // Start rendering edges
-  MIN_OPACITY = .1;
-  RENDER_STATS = false;
   CTX.lineCap = 'round';
   ANIMATION_ID = requestAnimationFrame (render);
 
-  console.log ('init()');
+  LOG (1, 'init()');
 }
 
 
@@ -72,7 +71,7 @@ function resize ()
   HALF = .05 * (canvas.width + canvas.height) / 2;
   HALF = 1 / HALF;
 
-  console.log ('resize()');
+  LOG (1, 'resize()');
 }
 
 
@@ -93,7 +92,7 @@ function set_positions ()
     RADIUS = width / 2;
   }
 
-  console.log ('set_positions()');
+  LOG (1, 'set_positions()');
 }
 
 
@@ -112,11 +111,11 @@ function init_highlights ()
     element.addEventListener ('mouseleave', () => hover_highlight (node));
   }
 
-  console.log ('init_highlights()');
+  LOG (1, 'init_highlights()');
 }
 
 
-function highlight (...nodes)
+export function highlight (...nodes)
 {
   DIRTY = true;
 
@@ -146,12 +145,12 @@ function highlight (...nodes)
       erased.push (node);
   }
 
-  console.log ('highlight()');
+  LOG (1, 'highlight()');
 
   if (added.length)
-    console.log (`...Added [${added}] (${added.length} node${added.length > 1 ? 's' : ''})`);
+    console.log (`Added\n\t[${added}] (${added.length} node${added.length > 1 ? 's' : ''})`);
   if (erased.length)
-    console.log (`...Erased [${erased}] (${erased.length} node${erased.length > 1 ? 's' : ''})`);
+    console.log (`Erased\n\t[${erased}] (${erased.length} node${erased.length > 1 ? 's' : ''})`);
 }
 
 
@@ -165,6 +164,8 @@ function hover_highlight (node)
   // Toggle hover style
   let element = document.getElementById (`node_${node}`);
   element.classList.toggle ('hover', any (HIGHLIGHTED[node]));
+
+  LOG (2, 'hover_highlight()');
 }
 
 
@@ -217,7 +218,7 @@ function render ()
 
       if (any (HIGHLIGHTED[node]) && any (HIGHLIGHTED[dest]))
       {
-        opacity = Math.max (opacity, .5);
+        opacity = Math.max (opacity, MIN_HIGHLIGHT_OPACITY);
         CTX.strokeStyle = `rgba(255, 0, 0, ${opacity})`;
         CTX.lineWidth = opacity * (3 - 1) + 2;
       }
@@ -234,11 +235,8 @@ function render ()
   }
 
   // Report render stats
-  if (RENDER_STATS)
-  {
-    t = performance.now () - t;
-    console.log (`${count} edges drawn in ${t.toFixed (2)}ms`);
-  }
+  t = performance.now () - t;
+  LOG (2, 'render()', `${count} edges drawn in ${t.toFixed (2)}ms`);
 
   // Queue next frame
   ANIMATION_ID = requestAnimationFrame (render);
@@ -254,11 +252,12 @@ function render ()
   window.HALF         = HALF;
   window.RADIUS       = RADIUS;
   window.MIN_OPACITY  = MIN_OPACITY;
-  window.RENDER_STATS = RENDER_STATS;
+  window.MIN_HIGHLIGHT_OPACITY  = MIN_HIGHLIGHT_OPACITY;
+  window.LOG_LEVEL    = LOG_LEVEL;
 }
 
 
-function any (...args)
+export function any (...args)
 {
   // Unfold if a single iterable is passed.
   if (args.length == 1 && Symbol.iterator in Object (args[0]))
@@ -268,7 +267,7 @@ function any (...args)
 }
 
 
-function all (...args)
+export function all (...args)
 {
   // Unfold if a single iterable is passed.
   if (args.length == 1 && Symbol.iterator in Object (args[0]))
@@ -278,17 +277,53 @@ function all (...args)
 }
 
 
-function get_highlighted ()
+export function get_highlighted ()
 {
   return NODES.filter (node => HIGHLIGHTED[node][0]);
 }
 
 
-function clear_all ()
+export function clear_all ()
 {
   let nodes = get_highlighted ();
   if (nodes.length)
     highlight (nodes);
+}
+
+
+export function help ()
+{
+  console.log (
+    'Available functions:\n\n',
+    '===========================================================\n\n',
+    'highlight(...nodes):\n',
+    '\tToggles highlight status of given node indices.\n\n',
+    'any(...booleans):\n',
+    '\tReduces given booleans arguments with OR operator.\n\n',
+    'all(...booleans):\n',
+    '\tReduces given booleans arguments with AND operator.\n\n',
+    'get_highlighted():\n',
+    '\tReturns an array of indices of currently highlighted nodes.\n\n',
+    'clear_all():\n',
+    '\tUn-highlights all nodes.\n\n',
+    '===========================================================\n\n',
+    'Also, type the function name in the console to read the code.\n\n',
+    'Example:\n\n',
+    '> clear_all\n',
+`< ƒ clear_all ()
+ {
+   let nodes = get_highlighted ();
+   if (nodes.length)
+     highlight (nodes);
+ }\n`
+  );
+}
+
+
+function LOG (level, ...args)
+{
+  if (LOG_LEVEL >= level)
+    console.log (...args);
 }
 
 
@@ -297,6 +332,7 @@ window.any = any;
 window.all = all;
 window.get_highlighted = get_highlighted;
 window.clear_all = clear_all;
+window.help = help;
 
 
 // Init edge renderer
