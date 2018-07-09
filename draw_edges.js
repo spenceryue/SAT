@@ -1,22 +1,23 @@
 'use strict';
 
 
-let ctx,
-    adjacencies,
-    nodes,
-    positions,
-    animation_id,
-    dirty,
-    mouse,
-    half,
-    radius,
-    minOpacity;
-
+let CTX,
+    ADJACENCIES,
+    NODES,
+    POSITIONS,
+    HIGHLIGHTED,
+    ANIMATION_ID,
+    DIRTY,
+    MOUSE,
+    HALF,
+    RADIUS,
+    MIN_OPACITY,
+    RENDER_STATS;
 
 async function init ()
 {
   let canvas = document.querySelector ('canvas');
-  ctx = canvas.getContext ('2d');
+  CTX = canvas.getContext ('2d');
 
   // Size canvas, taking account for devicePixelRatio
   resize ();
@@ -24,35 +25,40 @@ async function init ()
 
   // Load adjacency lists
   let response = await fetch ('adjacencies.json');
-  adjacencies = await response.json ();
+  ADJACENCIES = await response.json ();
 
   // Get node center positions
-  nodes = Array.from (Object.keys (adjacencies), Number)
-  positions = Array.from (nodes, () => Array (2));
+  NODES = Array.from (Object.keys (ADJACENCIES), Number);
+  POSITIONS = Array.from (NODES, () => Array (2));
   set_positions ();
   window.addEventListener ('resize', set_positions);
 
+  // Keep a set for highlighted nodes
+  init_highlights ();
+
   // Mouse tracking variables
-  mouse = {x: canvas.width/2, y: canvas.height/2};
-  dirty = true;
+  MOUSE = {x: canvas.width/2, y: canvas.height/2};
+  DIRTY = true;
   document.body.addEventListener ('mousemove', e =>
   {
-    dirty = true;
-    [mouse.x, mouse.y] = [e.clientX + window.scrollX,
+    DIRTY = true;
+    [MOUSE.x, MOUSE.y] = [e.clientX + window.scrollX,
                           e.clientY + window.scrollY];
   });
 
   // Start rendering edges
-  minOpacity = .1;
-  animation_id = requestAnimationFrame (render);
+  MIN_OPACITY = .1;
+  RENDER_STATS = false;
+  CTX.lineCap = 'round';
+  ANIMATION_ID = requestAnimationFrame (render);
 
-  console.log ('init() called.')
+  console.log ('init()');
 }
 
 
 function resize ()
 {
-  let canvas = ctx.canvas;
+  let canvas = CTX.canvas;
   let {width, height} = canvas.getBoundingClientRect ();
 
   // Set actual size in memory (scaled to account for extra pixel density).
@@ -60,89 +66,167 @@ function resize ()
   [canvas.width, canvas.height] = [scale * width, scale * height];
 
   // Normalize coordinate system to use css pixels.
-  ctx.scale (scale, scale);
+  CTX.scale (scale, scale);
 
   // Rendering scale, pixels to half opacity
-  half = .05 * (canvas.width + canvas.height) / 2;
-  half = 1 / half;
+  HALF = .05 * (canvas.width + canvas.height) / 2;
+  HALF = 1 / HALF;
 
-  console.log ('resize() called.')
+  console.log ('resize()');
 }
 
 
 function set_positions ()
 {
-  for (let node of nodes)
+  for (let node of NODES)
   {
     // Get node bounding box
     let element = document.getElementById (`node_${node}`);
     let {x, y, width, height} = element.getBoundingClientRect ();
 
     // Calculate node center position
-    positions[node] = [x + width/2 + window.scrollX,
+    POSITIONS[node] = [x + width/2 + window.scrollX,
                        y + height/2 + window.scrollY];
 
   // Record node radius
-  if (radius === undefined)
-    radius = width / 2;
+  if (RADIUS === undefined)
+    RADIUS = width / 2;
   }
 
-  console.log ('set_positions() called.')
+  console.log ('set_positions()');
+}
+
+
+function init_highlights ()
+{
+  // Array of highlight status pairs (clicked, hovered).
+  // Node is considered highlighted if (clicked||hovered).
+  HIGHLIGHTED = Array.from (NODES, () => [false, false]);
+
+  // Attach event listeners for each node
+  for (let node of NODES)
+  {
+    let element = document.getElementById (`node_${node}`);
+    element.addEventListener ('click', () => highlight (node));
+    element.addEventListener ('mouseenter', () => hover_highlight (node));
+    element.addEventListener ('mouseleave', () => hover_highlight (node));
+  }
+
+  console.log ('init_highlights()');
+}
+
+
+function highlight (...nodes)
+{
+  DIRTY = true;
+
+  // Unfold if a single iterable is passed.
+  if (nodes.length == 1 && Symbol.iterator in Object (nodes[0]))
+    nodes = nodes[0];
+
+  // If no arguments passed, assume all nodes
+  if (nodes.length == 0)
+    nodes = NODES;
+
+  let added = [],
+      erased = [];
+
+  // Toggle highlighted status of nodes
+  for (let node of nodes)
+  {
+    // Toggle clicked status
+    HIGHLIGHTED[node][0] ^= 1;
+
+    // Toggle hover style
+    let element = document.getElementById (`node_${node}`);
+    element.classList.toggle ('hover', any (HIGHLIGHTED[node]));
+    if (HIGHLIGHTED[node][0])
+      added.push (node);
+    else
+      erased.push (node);
+  }
+
+  console.log ('highlight()');
+
+  if (added.length)
+    console.log (`...Added [${added}] (${added.length} node${added.length > 1 ? 's' : ''})`);
+  if (erased.length)
+    console.log (`...Erased [${erased}] (${erased.length} node${erased.length > 1 ? 's' : ''})`);
+}
+
+
+function hover_highlight (node)
+{
+  DIRTY = true;
+
+  // Toggle hovered status
+  HIGHLIGHTED[node][1] ^= 1;
+
+  // Toggle hover style
+  let element = document.getElementById (`node_${node}`);
+  element.classList.toggle ('hover', any (HIGHLIGHTED[node]));
 }
 
 
 function render ()
 {
   // Skip render if mouse didn't move since last frame
-  if (!dirty)
+  if (!DIRTY)
   {
-    animation_id = requestAnimationFrame (render);
+    ANIMATION_ID = requestAnimationFrame (render);
     return;
   }
 
   // Track rendering time
   let t = performance.now ();
 
-  // Clear frame, reset dirty
-  let canvas = ctx.canvas;
-  ctx.clearRect (0, 0, canvas.width, canvas.height);
-  dirty = false;
+  // Clear frame, reset DIRTY
+  let canvas = CTX.canvas;
+  CTX.clearRect (0, 0, canvas.width, canvas.height);
+  DIRTY = false;
   let count = 0;
 
   // Loop through edges
-  for (let node of nodes)
+  for (let node of NODES)
   {
     // Get distance from node to mouse
-    let [x0, y0] = positions[node];
-    let d0 = Math.hypot (x0 - mouse.x, y0 - mouse.y);
-    d0 = Math.max (d0 - radius, 0);
+    let [x0, y0] = POSITIONS[node];
+    let d0 = Math.hypot (x0 - MOUSE.x, y0 - MOUSE.y);
+    d0 = Math.max (d0 - RADIUS, 0);
 
-    for (let dest of adjacencies[node])
+    for (let dest of ADJACENCIES[node])
     {
     // Get distance from dest to mouse
-      let [x1, y1] = positions[dest];
-      let d1 = Math.hypot (x1 - mouse.x, y1 - mouse.y);
-      d1 = Math.max (d1 - radius, 0);
+      let [x1, y1] = POSITIONS[dest];
+      let d1 = Math.hypot (x1 - MOUSE.x, y1 - MOUSE.y);
+      d1 = Math.max (d1 - RADIUS, 0);
 
       // Use the shorter of the two distances
       let d = Math.min (d0, d1);
 
       // Calculate opacity based on distance to the mouse
-      let opacity = 1 / (1 + half * Math.pow (d, 1.5));
-      opacity = Math.max (opacity, minOpacity);
+      let opacity = 1 / (1 + HALF * Math.pow (d, 1.5));
+      opacity = Math.max (opacity, MIN_OPACITY);
 
       // Interpolate colors and linewidth (scaling with opacity)
       let [r, g, b] = [opacity * (64 - 64) + 64,
                        opacity * (192 - 128) + 128,
                        opacity * (64 - 255) + 255];
-      ctx.strokeStyle = `rgba(${r}, ${g}, ${b}, ${opacity})`;
-      ctx.lineWidth = opacity * (3 - 1) + 1;
+      CTX.strokeStyle = `rgba(${r}, ${g}, ${b}, ${opacity})`;
+      CTX.lineWidth = opacity * (3 - 1) + 1;
+
+      if (any (HIGHLIGHTED[node]) && any (HIGHLIGHTED[dest]))
+      {
+        opacity = Math.max (opacity, .5);
+        CTX.strokeStyle = `rgba(255, 0, 0, ${opacity})`;
+        CTX.lineWidth = opacity * (3 - 1) + 2;
+      }
 
       // Draw the edge
-      ctx.beginPath ();
-      ctx.moveTo (x0, y0);
-      ctx.lineTo (x1, y1);
-      ctx.stroke ();
+      CTX.beginPath ();
+      CTX.moveTo (x0, y0);
+      CTX.lineTo (x1, y1);
+      CTX.stroke ();
 
       // Record one more line drawn
       count++;
@@ -150,12 +234,69 @@ function render ()
   }
 
   // Report render stats
-  t = performance.now () - t;
-  console.log (`${count} edges drawn in ${t.toFixed (2)}ms`);
+  if (RENDER_STATS)
+  {
+    t = performance.now () - t;
+    console.log (`${count} edges drawn in ${t.toFixed (2)}ms`);
+  }
 
   // Queue next frame
-  animation_id = requestAnimationFrame (render);
+  ANIMATION_ID = requestAnimationFrame (render);
+
+  window.CTX          = CTX;
+  window.ADJACENCIES  = ADJACENCIES;
+  window.NODES        = NODES;
+  window.POSITIONS    = POSITIONS;
+  window.HIGHLIGHTED  = HIGHLIGHTED;
+  window.ANIMATION_ID = ANIMATION_ID;
+  window.DIRTY        = DIRTY;
+  window.MOUSE        = MOUSE;
+  window.HALF         = HALF;
+  window.RADIUS       = RADIUS;
+  window.MIN_OPACITY  = MIN_OPACITY;
+  window.RENDER_STATS = RENDER_STATS;
 }
+
+
+function any (...args)
+{
+  // Unfold if a single iterable is passed.
+  if (args.length == 1 && Symbol.iterator in Object (args[0]))
+    args = args[0];
+
+  return args.reduce ((a,b) => a||b, 0);
+}
+
+
+function all (...args)
+{
+  // Unfold if a single iterable is passed.
+  if (args.length == 1 && Symbol.iterator in Object (args[0]))
+    args = args[0];
+
+  return args.reduce ((a,b) => a&&b, 1);
+}
+
+
+function get_highlighted ()
+{
+  return NODES.filter (node => HIGHLIGHTED[node][0]);
+}
+
+
+function clear_all ()
+{
+  let nodes = get_highlighted ();
+  if (nodes.length)
+    highlight (nodes);
+}
+
+
+window.highlight = highlight;
+window.any = any;
+window.all = all;
+window.get_highlighted = get_highlighted;
+window.clear_all = clear_all;
 
 
 // Init edge renderer

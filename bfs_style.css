@@ -66,11 +66,13 @@ div
   box-shadow: 0 0 2px rgba(32,128,64,.75);
 }
 
-.node:hover
+.node:hover, .node.hover
 {
   font-weight: bold;
   transform: scale(1.1);
   background-color: rgba(255,255,255,1);
+  border-color: rgba(255,64,128,.75);
+  box-shadow: 0 0 2px rgba(255,64,128,.75);
 }
 
 .layer
