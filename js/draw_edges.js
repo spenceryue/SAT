@@ -13,9 +13,9 @@ let CTX,
     RADIUS,
     MIN_OPACITY = .1,
     MIN_HIGHLIGHT_OPACITY = .5,
-    LOG_LEVEL = 0;
+    LOG_LEVEL = 2;
 
-async function init ()
+async function init (edges_file)
 {
   let canvas = document.querySelector ('canvas');
   CTX = canvas.getContext ('2d');
@@ -25,7 +25,7 @@ async function init ()
   window.addEventListener ('resize', resize);
 
   // Load adjacency lists
-  let response = await fetch ('adjacencies.json');
+  let response = await fetch (edges_file);
   ADJACENCIES = await response.json ();
 
   // Get node center positions
@@ -183,7 +183,9 @@ function render ()
 
   // Clear frame, reset DIRTY
   let canvas = CTX.canvas;
-  CTX.clearRect (0, 0, canvas.width, canvas.height);
+  // CTX.clearRect (0, 0, canvas.width, canvas.height);
+  CTX.fillStyle = `rgba(0,0,0,1)`;
+  CTX.fillRect (0, 0, canvas.width, canvas.height);
   DIRTY = false;
   let count = 0;
 
@@ -340,4 +342,5 @@ window.help = help;
 
 
 // Init edge renderer
-document.addEventListener ('DOMContentLoaded', init);
+let edges_file = '../json/' + window.location.href.split ('/').pop ().replace ('.html', '.json');
+document.addEventListener ('DOMContentLoaded', () => init (edges_file));

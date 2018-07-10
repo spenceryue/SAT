@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"LOG",
+				"LOG_LEVEL"
+			],
+			[
+				"high",
+				"highlight"
+			],
+			[
+				"hig",
+				"highlight"
+			],
+			[
+				"highli",
+				"highlighted"
+			],
+			[
 				"half",
 				"half"
 			],
@@ -498,22 +514,6 @@
 			[
 				"elme",
 				"element"
-			],
-			[
-				"output",
-				"output"
-			],
-			[
-				"Sour",
-				"SOURCE"
-			],
-			[
-				"out",
-				"OUTPUT_"
-			],
-			[
-				"ig",
-				"img"
 			]
 		]
 	},
@@ -532,7 +532,8 @@
 			"file": "output.html",
 			"settings":
 			{
-				"buffer_size": 3840,
+				"buffer_size": 3831,
+				"encoding": "UTF-8",
 				"line_ending": "Windows",
 				"name": "<div class=\"node vertical\">0</div>"
 			}
@@ -541,7 +542,7 @@
 			"file": "draw_edges.js",
 			"settings":
 			{
-				"buffer_size": 3963,
+				"buffer_size": 8561,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -550,7 +551,7 @@
 			"file": "bfs_style.css",
 			"settings":
 			{
-				"buffer_size": 1398,
+				"buffer_size": 1493,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -572,7 +573,7 @@
 			}
 		}
 	],
-	"build_system": "Java HW3",
+	"build_system": "Packages/Python/Python.sublime-build",
 	"build_system_choices":
 	[
 		[
@@ -654,6 +655,22 @@
 		[
 			[
 				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				"Syntax Check"
+			]
+		],
+		[
+			[
+				[
 					"Packages/User/C99 on Linux.sublime-build",
 					""
 				],
@@ -688,7 +705,7 @@
 	"command_palette":
 	{
 		"height": 686.0,
-		"last_filter": "sspy",
+		"last_filter": "",
 		"selected_items":
 		[
 			[
@@ -1211,6 +1228,7 @@
 		"height": 455.0,
 		"history":
 		[
+			"sum ([1,15,105,455,1365,3003,5005,6435,6435,5005,3003,1365,455,105,15,1,23,253,1771,8855,33649,100947,245157,490314,817190,1144066,1352078,1352078,1144066,817190,490314,245157,100947,33649,8855,1771,253,23,1,1,])",
 			"sum ([120,   3628800, 479001600, 720,   720,   479001600, 120,   6,     120])",
 			"sum ([24,    6,     24,    362880, 39916800, 24, 24,   3628800])",
 			"sum ([2,     5040,  362880, 2,    2,     40320, 6,     1,     6,     2,     24,    2,     6])",
@@ -1337,8 +1355,7 @@
 			"'adsfsd'['adsfsd'.index('fsd')]",
 			"'adsfsd'[index('fsd')]",
 			"'adsfsd'.substr(index('fsd'))",
-			"'adsfsd'.index('fsd')",
-			"'a df\\nadf'.split('\\n')"
+			"'adsfsd'.index('fsd')"
 		]
 	},
 	"distraction_free":
@@ -1356,6 +1373,7 @@
 	],
 	"file_history":
 	[
+		"/C/Users/spenc/OneDrive/Documents/Summer 2017/crunchyroll.re/test.html",
 		"/C/Users/spenc/OneDrive/Programming/SAT/.gitignore",
 		"/C/Users/spenc/OneDrive/Programming/SAT/bfs_style.css",
 		"/C/Users/spenc/OneDrive/Programming/SAT/lol.py",
@@ -1482,8 +1500,7 @@
 		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/w36/a race against time/sample0.txt.expected",
 		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/w36/ways to give a check/custom1.txt",
 		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/w36/ways to give a check/custom1.txt.expected",
-		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/w36/ways to give a check/custom0.txt",
-		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/w36/ways to give a check/soln.py"
+		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/w36/ways to give a check/custom0.txt"
 	],
 	"find":
 	{
@@ -1506,6 +1523,77 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"MIN_OPACITY",
+			"LOG (",
+			"P.",
+			"MOUSE",
+			"DIRTY",
+			"ANIMATION_ID",
+			"CTX",
+			"= ",
+			" = ",
+			"new Param (",
+			"new ",
+			"=",
+			",",
+			"RENDER_STATS",
+			"function",
+			"()');",
+			"...",
+			"indices)",
+			"reduction of ",
+			": ",
+			"clear_all",
+			",",
+			"booleans",
+			"]`);",
+			"get_highlighted",
+			"args",
+			";",
+			"if (args.length == 1 && Symbol.iterator in Object (args[0]))",
+			"nodes",
+			"\n  return",
+			"...",
+			"HIGHLIGHTED[node]);",
+			"HIGHLIGHTED[node]",
+			"\\t",
+			"(`",
+			")')",
+			"called.",
+			"MIN_OPACITY",
+			"any",
+			"]",
+			"window.",
+			"NODES",
+			"...NODES",
+			"minOpacity",
+			"radius",
+			"HALF",
+			"half",
+			"mouse",
+			"dirty",
+			"animation_id",
+			"highlighted",
+			"POSITIONS",
+			"set_POSITIONS",
+			"positions",
+			"nodes",
+			"positions",
+			"nodes",
+			"adjacencies",
+			"ctx",
+			"[0]",
+			"highlighted[node]",
+			" > 0",
+			".values ();",
+			".has (",
+			".has (node)",
+			"128",
+			"indices",
+			"nodes",
+			"255",
+			"highlighted",
+			"combinations checked.",
 			"completed",
 			"220",
 			"255",
@@ -1562,78 +1650,7 @@
 			"BLOCK_SIZE",
 			"CONTENT_SIZE",
 			"CONTENT",
-			" \\n",
-			"UDPThread.",
-			"BLOCK",
-			"; ",
-			"out_1",
-			"\"\\n\"",
-			"log.print",
-			"0",
-			" \\",
-			"test1",
-			"System.err.println (\"Server aborted:\" + e);",
-			"Server aborted",
-			"-cp ",
-			"echo ",
-			"java.exe -",
-			" <\\S",
-			"\\S<",
-			"\\S\\(",
-			"\\S<",
-			"\\S\\(",
-			"boolean",
-			"      //",
-			"= String",
-			"String",
-			"response",
-			"Packet",
-			"hostAddress",
-			"minBlock = Math.min (minBlock, result.length () - UDPThread.HEADER_SIZE);",
-			"toString ()",
-			"result.length",
-			".length",
-			"min",
-			"static",
-			"conne",
-			", result.length))",
-			"CONTENT_SIZE);",
-			"i",
-			"BLOCKSIZE",
-			"int",
-			"final static ",
-			"result",
-			"BLOCKS",
-			"LEN",
-			"BLOCKSIZE-10",
-			"blockSize",
-			"result =",
-			"sb.append (each);",
-			".getBytes ()",
-			"result = \"\";",
-			"new bytes[0]",
-			"request",
-			"result",
-			"response",
-			"listener",
-			"packet",
-			"datapacket",
-			"command",
-			"result =",
-			"result = ",
-			"out.println",
-			"Socket",
-			"datasocket",
-			"Server",
-			"\\S\\(",
-			"new File",
-			"final",
-			"Listener",
-			"scanner",
-			"out.println (",
-			"s",
-			"static ",
-			"Server"
+			" \\n"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1651,7 +1668,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -1705,15 +1722,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3840,
+						"buffer_size": 3831,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3674,
-								3674
+								3783,
+								3783
 							]
 						],
 						"settings":
@@ -1726,7 +1743,7 @@
 						"translation.y": 532.571428571,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -1735,15 +1752,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3963,
+						"buffer_size": 8561,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								41,
-								41
+								8324,
+								8324
 							]
 						],
 						"settings":
@@ -1752,10 +1769,10 @@
 							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 3769.71428571,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -1764,15 +1781,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1398,
+						"buffer_size": 1493,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								358,
-								358
+								1121,
+								1121
 							]
 						],
 						"settings":
@@ -1781,10 +1798,10 @@
 							"syntax": "Packages/CSS/CSS.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 582.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -1810,7 +1827,7 @@
 							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 3535.57142857,
+						"translation.y": 1273.14285714,
 						"zoom_level": 1.0
 					},
 					"stack_index": 3,
@@ -1881,7 +1898,7 @@
 	"menu_visible": false,
 	"output.exec":
 	{
-		"height": 427.0
+		"height": 239.0
 	},
 	"output.find_results":
 	{
