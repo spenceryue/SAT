@@ -1,6 +1,7 @@
 body
 {
   margin: 0;
+  background: black;
 }
 
 canvas
@@ -65,6 +66,7 @@ div
   background-color: rgba(255,255,255,.75);
   border-color: rgba(32,128,64,.75);
   box-shadow: 0 0 2px rgba(32,128,64,.75);
+  cursor: pointer;
 }
 
 .node:hover, .node.hover

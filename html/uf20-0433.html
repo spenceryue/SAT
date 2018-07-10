@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>BFS Decomposition: uf20-0433</title>
+</head>
+<body>
+  <div class="container horizontal">
+  <canvas></canvas>
+    <div id="node_0" class="node vertical">0</div>
+    <div class="layer vertical">
+      <div id="node_1" class="node horizontal">1</div>
+      <div id="node_2" class="node horizontal">2</div>
+      <div class="break horizontal"></div>
+      <div id="node_200" class="node horizontal">200</div>
+      <div class="break horizontal"></div>
+      <div id="node_15" class="node horizontal">15</div>
+      <div class="break horizontal"></div>
+      <div id="node_50" class="node horizontal">50</div>
+      <div class="break horizontal"></div>
+      <div id="node_63" class="node horizontal">63</div>
+    </div>
+    <div class="layer vertical">
+      <div id="node_10" class="node horizontal">10</div>
+      <div id="node_11" class="node horizontal">11</div>
+      <div class="break horizontal"></div>
+      <div id="node_13" class="node horizontal">13</div>
+      <div class="break horizontal"></div>
+      <div id="node_16" class="node horizontal">16</div>
+      <div id="node_17" class="node horizontal">17</div>
+      <div class="break horizontal"></div>
+      <div id="node_153" class="node horizontal">153</div>
+      <div class="break horizontal"></div>
+      <div id="node_157" class="node horizontal">157</div>
+      <div class="break horizontal"></div>
+      <div id="node_162" class="node horizontal">162</div>
+      <div class="break horizontal"></div>
+      <div id="node_37" class="node horizontal">37</div>
+      <div class="break horizontal"></div>
+      <div id="node_39" class="node horizontal">39</div>
+      <div class="break horizontal"></div>
+      <div id="node_47" class="node horizontal">47</div>
+      <div class="break horizontal"></div>
+      <div id="node_48" class="node horizontal">48</div>
+      <div id="node_49" class="node horizontal">49</div>
+      <div class="break horizontal"></div>
+      <div id="node_53" class="node horizontal">53</div>
+      <div class="break horizontal"></div>
+      <div id="node_183" class="node horizontal">183</div>
+      <div id="node_185" class="node horizontal">185</div>
+      <div class="break horizontal"></div>
+      <div id="node_186" class="node horizontal">186</div>
+      <div class="break horizontal"></div>
+      <div id="node_64" class="node horizontal">64</div>
+      <div id="node_65" class="node horizontal">65</div>
+      <div class="break horizontal"></div>
+      <div id="node_194" class="node horizontal">194</div>
+      <div class="break horizontal"></div>
+      <div id="node_198" class="node horizontal">198</div>
+      <div id="node_199" class="node horizontal">199</div>
+      <div class="break horizontal"></div>
+      <div id="node_206" class="node horizontal">206</div>
+      <div class="break horizontal"></div>
+      <div id="node_207" class="node horizontal">207</div>
+      <div class="break horizontal"></div>
+      <div id="node_80" class="node horizontal">80</div>
+      <div class="break horizontal"></div>
+      <div id="node_210" class="node horizontal">210</div>
+      <div class="break horizontal"></div>
+      <div id="node_92" class="node horizontal">92</div>
+      <div class="break horizontal"></div>
+      <div id="node_94" class="node horizontal">94</div>
+      <div class="break horizontal"></div>
+      <div id="node_226" class="node horizontal">226</div>
+      <div class="break horizontal"></div>
+      <div id="node_99" class="node horizontal">99</div>
+      <div class="break horizontal"></div>
+      <div id="node_102" class="node horizontal">102</div>
+      <div class="break horizontal"></div>
+      <div id="node_230" class="node horizontal">230</div>
+      <div class="break horizontal"></div>
+      <div id="node_240" class="node horizontal">240</div>
+      <div class="break horizontal"></div>
+      <div id="node_120" class="node horizontal">120</div>
+      <div class="break horizontal"></div>
+      <div id="node_124" class="node horizontal">124</div>
+      <div class="break horizontal"></div>
+      <div id="node_255" class="node horizontal">255</div>
+    </div>
+    <div class="layer vertical">
+      <div id="node_5" class="node horizontal">5</div>
+      <div class="break horizontal"></div>
+      <div id="node_8" class="node horizontal">8</div>
+      <div class="break horizontal"></div>
+      <div id="node_9" class="node horizontal">9</div>
+      <div class="layer horizontal">
+        <div id="node_44" class="node vertical">44</div>
+        <div class="break vertical"></div>
+        <div id="node_251" class="node vertical">251</div>
+        <div class="break vertical"></div>
+        <div id="node_112" class="node vertical">112</div>
+        <div class="break vertical"></div>
+        <div id="node_19" class="node vertical">19</div>
+        <div class="break vertical"></div>
+        <div id="node_179" class="node vertical">179</div>
+        <div class="break vertical"></div>
+        <div id="node_180" class="node vertical">180</div>
+        <div class="break vertical"></div>
+        <div id="node_243" class="node vertical">243</div>
+        <div class="break vertical"></div>
+        <div id="node_87" class="node vertical">87</div>
+        <div class="break vertical"></div>
+        <div id="node_184" class="node vertical">184</div>
+        <div class="break vertical"></div>
+        <div id="node_219" class="node vertical">219</div>
+        <div class="break vertical"></div>
+        <div id="node_62" class="node vertical">62</div>
+      </div>
+      <div class="layer horizontal">
+        <div id="node_177" class="node vertical">177</div>
+        <div class="break vertical"></div>
+        <div id="node_122" class="node vertical">122</div>
+        <div class="break vertical"></div>
+        <div id="node_244" class="node vertical">244</div>
+        <div class="break vertical"></div>
+        <div id="node_204" class="node vertical">204</div>
+      </div>
+      <div class="layer horizontal">
+        <div id="node_121" class="node vertical">121</div>
+        <div class="break vertical"></div>
+        <div id="node_52" class="node vertical">52</div>
+        <div class="break vertical"></div>
+        <div id="node_205" class="node vertical">205</div>
+      </div>
+      <div class="layer horizontal">
+        <div id="node_256" class="node vertical">256</div>
+        <div class="break vertical"></div>
+        <div id="node_100" class="node vertical">100</div>
+        <div class="break vertical"></div>
+        <div id="node_103" class="node vertical">103</div>
+        <div class="break vertical"></div>
+        <div id="node_46" class="node vertical">46</div>
+        <div class="break vertical"></div>
+        <div id="node_78" class="node vertical">78</div>
+        <div class="break vertical"></div>
+        <div id="node_145" class="node vertical">145</div>
+        <div class="break vertical"></div>
+        <div id="node_114" class="node vertical">114</div>
+        <div class="break vertical"></div>
+        <div id="node_51" class="node vertical">51</div>
+        <div class="break vertical"></div>
+        <div id="node_253" class="node vertical">253</div>
+      </div>
+      <div class="layer horizontal">
+        <div id="node_257" class="node vertical">257</div>
+        <div class="break vertical"></div>
+        <div id="node_227" class="node vertical">227</div>
+        <div class="break vertical"></div>
+        <div id="node_101" class="node vertical">101</div>
+        <div class="break vertical"></div>
+        <div id="node_104" class="node vertical">104</div>
+        <div class="break vertical"></div>
+        <div id="node_45" class="node vertical">45</div>
+        <div class="break vertical"></div>
+        <div id="node_79" class="node vertical">79</div>
+        <div class="break vertical"></div>
+        <div id="node_116" class="node vertical">116</div>
+        <div class="break vertical"></div>
+        <div id="node_252" class="node vertical">252</div>
+      </div>
+      <div class="layer horizontal">
+        <div id="node_225" class="node vertical">225</div>
+        <div class="break vertical"></div>
+        <div id="node_193" class="node vertical">193</div>
+        <div class="break vertical"></div>
+        <div id="node_131" class="node vertical">131</div>
+        <div class="break vertical"></div>
+        <div id="node_36" class="node vertical">36</div>
+        <div id="node_38" class="node vertical">38</div>
+        <div class="break vertical"></div>
+        <div id="node_228" class="node vertical">228</div>
+        <div class="break vertical"></div>
+        <div id="node_107" class="node vertical">107</div>
+        <div class="break vertical"></div>
+        <div id="node_139" class="node vertical">139</div>
+        <div class="break vertical"></div>
+        <div id="node_110" class="node vertical">110</div>
+        <div class="break vertical"></div>
+        <div id="node_175" class="node vertical">175</div>
+        <div class="break vertical"></div>
+        <div id="node_14" class="node vertical">14</div>
+        <div class="break vertical"></div>
+        <div id="node_125" class="node vertical">125</div>
+      </div>
+      <div class="layer horizontal">
+        <div id="node_192" class="node vertical">192</div>
+        <div class="break vertical"></div>
+        <div id="node_163" class="node vertical">163</div>
+        <div class="break vertical"></div>
+        <div id="node_229" class="node vertical">229</div>
+        <div class="break vertical"></div>
+        <div id="node_262" class="node vertical">262</div>
+        <div class="break vertical"></div>
+        <div id="node_233" class="node vertical">233</div>
+        <div class="break vertical"></div>
+        <div id="node_106" class="node vertical">106</div>
+        <div class="break vertical"></div>
+        <div id="node_41" class="node vertical">41</div>
+        <div class="break vertical"></div>
+        <div id="node_12" class="node vertical">12</div>
+        <div class="break vertical"></div>
+        <div id="node_270" class="node vertical">270</div>
+        <div class="break vertical"></div>
+        <div id="node_208" class="node vertical">208</div>
+        <div class="break vertical"></div>
+        <div id="node_147" class="node vertical">147</div>
+        <div class="break vertical"></div>
+        <div id="node_212" class="node vertical">212</div>
+        <div class="break vertical"></div>
+        <div id="node_84" class="node vertical">84</div>
+        <div class="break vertical"></div>
+        <div id="node_214" class="node vertical">214</div>
+        <div class="break vertical"></div>
+        <div id="node_152" class="node vertical">152</div>
+        <div class="break vertical"></div>
+        <div id="node_156" class="node vertical">156</div>
+        <div id="node_158" class="node vertical">158</div>
+        <div class="break vertical"></div>
+        <div id="node_93" class="node vertical">93</div>
+        <div class="break vertical"></div>
+        <div id="node_123" class="node vertical">123</div>
+        <div class="break vertical"></div>
+        <div id="node_188" class="node vertical">188</div>
+      </div>
+      <div class="layer horizontal">
+        <div id="node_164" class="node vertical">164</div>
+        <div id="node_95" class="node vertical">95</div>
+        <div class="break vertical"></div>
+        <div id="node_40" class="node vertical">40</div>
+        <div class="break vertical"></div>
+        <div id="node_209" class="node vertical">209</div>
+        <div class="break vertical"></div>
+        <div id="node_211" class="node vertical">211</div>
+        <div class="break vertical"></div>
+        <div id="node_187" class="node vertical">187</div>
+      </div>
+      <div class="layer horizontal">
+        <div id="node_132" class="node vertical">132</div>
+        <div class="break vertical"></div>
+        <div id="node_260" class="node vertical">260</div>
+        <div class="break vertical"></div>
+        <div id="node_168" class="node vertical">168</div>
+        <div class="break vertical"></div>
+        <div id="node_90" class="node vertical">90</div>
+        <div id="node_91" class="node vertical">91</div>
+        <div class="break vertical"></div>
+        <div id="node_30" class="node vertical">30</div>
+      </div>
+      <div id="node_169" class="node horizontal">169</div>
+      <div class="break horizontal"></div>
+      <div id="node_29" class="node horizontal">29</div>
+      <div class="break horizontal"></div>
+      <div id="node_57" class="node horizontal">57</div>
+      <div class="break horizontal"></div>
+      <div id="node_66" class="node horizontal">66</div>
+      <div class="break horizontal"></div>
+      <div id="node_126" class="node horizontal">126</div>
+      <div id="node_128" class="node horizontal">128</div>
+      <div class="break horizontal"></div>
+      <div id="node_154" class="node horizontal">154</div>
+      <div id="node_155" class="node horizontal">155</div>
+      <div class="break horizontal"></div>
+      <div id="node_160" class="node horizontal">160</div>
+      <div class="break horizontal"></div>
+      <div id="node_167" class="node horizontal">167</div>
+      <div class="break horizontal"></div>
+      <div id="node_203" class="node horizontal">203</div>
+      <div class="break horizontal"></div>
+      <div id="node_222" class="node horizontal">222</div>
+      <div class="break horizontal"></div>
+      <div id="node_237" class="node horizontal">237</div>
+      <div id="node_239" class="node horizontal">239</div>
+      <div class="break horizontal"></div>
+      <div id="node_241" class="node horizontal">241</div>
+      <div id="node_242" class="node horizontal">242</div>
+    </div>
+    <div class="layer vertical">
+      <div id="node_3" class="node horizontal">3</div>
+      <div id="node_4" class="node horizontal">4</div>
+      <div class="break horizontal"></div>
+      <div id="node_6" class="node horizontal">6</div>
+      <div class="layer horizontal">
+        <div id="node_263" class="node vertical">263</div>
+        <div class="break vertical"></div>
+        <div id="node_7" class="node vertical">7</div>
+        <div class="break vertical"></div>
+        <div id="node_105" class="node vertical">105</div>
+        <div class="break vertical"></div>
+        <div id="node_21" class="node vertical">21</div>
+        <div class="break vertical"></div>
+        <div id="node_119" class="node vertical">119</div>
+      </div>
+      <div class="layer horizontal">
+        <div id="node_258" class="node vertical">258</div>
+        <div class="break vertical"></div>
+        <div id="node_261" class="node vertical">261</div>
+        <div class="break vertical"></div>
+        <div id="node_117" class="node vertical">117</div>
+        <div id="node_118" class="node vertical">118</div>
+        <div class="break vertical"></div>
+        <div id="node_23" class="node vertical">23</div>
+        <div id="node_22" class="node vertical">22</div>
+      </div>
+      <div class="layer horizontal">
+        <div id="node_34" class="node vertical">34</div>
+        <div class="break vertical"></div>
+        <div id="node_259" class="node vertical">259</div>
+        <div class="break vertical"></div>
+        <div id="node_231" class="node vertical">231</div>
+        <div class="break vertical"></div>
+        <div id="node_235" class="node vertical">235</div>
+        <div class="break vertical"></div>
+        <div id="node_220" class="node vertical">220</div>
+      </div>
+      <div class="layer horizontal">
+        <div id="node_33" class="node vertical">33</div>
+        <div id="node_35" class="node vertical">35</div>
+        <div class="break vertical"></div>
+        <div id="node_68" class="node vertical">68</div>
+        <div class="break vertical"></div>
+        <div id="node_232" class="node vertical">232</div>
+        <div class="break vertical"></div>
+        <div id="node_234" class="node vertical">234</div>
+        <div id="node_236" class="node vertical">236</div>
+        <div class="break vertical"></div>
+        <div id="node_113" class="node vertical">113</div>
+        <div class="break vertical"></div>
+        <div id="node_24" class="node vertical">24</div>
+        <div id="node_25" class="node vertical">25</div>
+        <div class="break vertical"></div>
+        <div id="node_250" class="node vertical">250</div>
+        <div class="break vertical"></div>
+        <div id="node_221" class="node vertical">221</div>
+        <div class="break vertical"></div>
+        <div id="node_159" class="node vertical">159</div>
+      </div>
+      <div class="layer horizontal">
+        <div id="node_133" class="node vertical">133</div>
+        <div id="node_67" class="node vertical">67</div>
+        <div class="layer vertical">
+          <div id="node_178" class="node horizontal">178</div>
+          <div class="break horizontal"></div>
+          <div id="node_77" class="node horizontal">77</div>
+          <div class="break horizontal"></div>
+          <div id="node_74" class="node horizontal">74</div>
+        </div>
+        <div class="layer vertical">
+          <div id="node_72" class="node horizontal">72</div>
+          <div id="node_73" class="node horizontal">73</div>
+        </div>
+        <div class="break vertical"></div>
+        <div id="node_136" class="node vertical">136</div>
+        <div class="break vertical"></div>
+        <div id="node_268" class="node vertical">268</div>
+        <div class="break vertical"></div>
+        <div id="node_26" class="node vertical">26</div>
+        <div class="break vertical"></div>
+        <div id="node_161" class="node vertical">161</div>
+        <div class="break vertical"></div>
+        <div id="node_171" class="node vertical">171</div>
+        <div class="break vertical"></div>
+        <div id="node_174" class="node vertical">174</div>
+        <div class="break vertical"></div>
+        <div id="node_182" class="node vertical">182</div>
+        <div class="break vertical"></div>
+        <div id="node_58" class="node vertical">58</div>
+        <div class="break vertical"></div>
+        <div id="node_60" class="node vertical">60</div>
+        <div class="break vertical"></div>
+        <div id="node_201" class="node vertical">201</div>
+        <div class="break vertical"></div>
+        <div id="node_81" class="node vertical">81</div>
+        <div id="node_83" class="node vertical">83</div>
+        <div class="break vertical"></div>
+        <div id="node_111" class="node vertical">111</div>
+        <div class="break vertical"></div>
+        <div id="node_115" class="node vertical">115</div>
+        <div class="break vertical"></div>
+        <div id="node_249" class="node vertical">249</div>
+      </div>
+      <div class="layer horizontal">
+        <div id="node_134" class="node vertical">134</div>
+        <div id="node_173" class="node vertical">173</div>
+        <div id="node_61" class="node vertical">61</div>
+        <div class="break vertical"></div>
+        <div id="node_135" class="node vertical">135</div>
+        <div class="break vertical"></div>
+        <div id="node_266" class="node vertical">266</div>
+        <div class="break vertical"></div>
+        <div id="node_267" class="node vertical">267</div>
+        <div id="node_269" class="node vertical">269</div>
+        <div class="break vertical"></div>
+        <div id="node_141" class="node vertical">141</div>
+        <div class="break vertical"></div>
+        <div id="node_272" class="node vertical">272</div>
+        <div class="break vertical"></div>
+        <div id="node_20" class="node vertical">20</div>
+        <div class="break vertical"></div>
+        <div id="node_149" class="node vertical">149</div>
+        <div class="break vertical"></div>
+        <div id="node_150" class="node vertical">150</div>
+        <div class="break vertical"></div>
+        <div id="node_31" class="node vertical">31</div>
+        <div id="node_32" class="node vertical">32</div>
+        <div class="break vertical"></div>
+        <div id="node_165" class="node vertical">165</div>
+        <div class="break vertical"></div>
+        <div id="node_42" class="node vertical">42</div>
+        <div class="break vertical"></div>
+        <div id="node_176" class="node vertical">176</div>
+        <div class="break vertical"></div>
+        <div id="node_181" class="node vertical">181</div>
+        <div class="break vertical"></div>
+        <div id="node_56" class="node vertical">56</div>
+        <div class="break vertical"></div>
+        <div id="node_59" class="node vertical">59</div>
+        <div class="break vertical"></div>
+        <div id="node_69" class="node vertical">69</div>
+        <div class="break vertical"></div>
+        <div id="node_202" class="node vertical">202</div>
+        <div class="break vertical"></div>
+        <div id="node_75" class="node vertical">75</div>
+        <div id="node_76" class="node vertical">76</div>
+        <div class="break vertical"></div>
+        <div id="node_82" class="node vertical">82</div>
+        <div class="break vertical"></div>
+        <div id="node_88" class="node vertical">88</div>
+        <div class="break vertical"></div>
+        <div id="node_217" class="node vertical">217</div>
+        <div id="node_218" class="node vertical">218</div>
+        <div class="break vertical"></div>
+        <div id="node_98" class="node vertical">98</div>
+        <div class="break vertical"></div>
+        <div id="node_109" class="node vertical">109</div>
+        <div class="break vertical"></div>
+        <div id="node_238" class="node vertical">238</div>
+        <div class="break vertical"></div>
+        <div id="node_127" class="node vertical">127</div>
+      </div>
+      <div class="layer horizontal">
+        <div id="node_96" class="node vertical">96</div>
+        <div class="layer vertical">
+          <div id="node_129" class="node horizontal">129</div>
+          <div class="break horizontal"></div>
+          <div id="node_143" class="node horizontal">143</div>
+          <div class="break horizontal"></div>
+          <div id="node_89" class="node horizontal">89</div>
+          <div class="break horizontal"></div>
+          <div id="node_27" class="node horizontal">27</div>
+          <div class="break horizontal"></div>
+          <div id="node_190" class="node horizontal">190</div>
+        </div>
+        <div class="layer vertical">
+          <div id="node_195" class="node horizontal">195</div>
+          <div class="break horizontal"></div>
+          <div id="node_70" class="node horizontal">70</div>
+          <div class="break horizontal"></div>
+          <div id="node_264" class="node horizontal">264</div>
+          <div class="break horizontal"></div>
+          <div id="node_213" class="node horizontal">213</div>
+          <div class="break horizontal"></div>
+          <div id="node_247" class="node horizontal">247</div>
+        </div>
+        <div class="break vertical"></div>
+        <div id="node_271" class="node vertical">271</div>
+        <div class="break vertical"></div>
+        <div id="node_18" class="node vertical">18</div>
+        <div id="node_166" class="node vertical">166</div>
+        <div id="node_148" class="node vertical">148</div>
+        <div class="break vertical"></div>
+        <div id="node_151" class="node vertical">151</div>
+        <div class="break vertical"></div>
+        <div id="node_216" class="node vertical">216</div>
+        <div class="break vertical"></div>
+        <div id="node_43" class="node vertical">43</div>
+        <div class="break vertical"></div>
+        <div id="node_108" class="node vertical">108</div>
+        <div class="break vertical"></div>
+        <div id="node_54" class="node vertical">54</div>
+      </div>
+      <div class="layer horizontal">
+        <div id="node_248" class="node vertical">248</div>
+        <div id="node_246" class="node vertical">246</div>
+        <div class="break vertical"></div>
+        <div id="node_130" class="node vertical">130</div>
+        <div class="break vertical"></div>
+        <div id="node_196" class="node vertical">196</div>
+        <div id="node_197" class="node vertical">197</div>
+        <div class="break vertical"></div>
+        <div id="node_86" class="node vertical">86</div>
+        <div class="break vertical"></div>
+        <div id="node_215" class="node vertical">215</div>
+        <div class="break vertical"></div>
+        <div id="node_28" class="node vertical">28</div>
+        <div class="break vertical"></div>
+        <div id="node_189" class="node vertical">189</div>
+      </div>
+      <div id="node_85" class="node horizontal">85</div>
+      <div class="break horizontal"></div>
+      <div id="node_138" class="node horizontal">138</div>
+      <div id="node_140" class="node horizontal">140</div>
+      <div class="break horizontal"></div>
+      <div id="node_144" class="node horizontal">144</div>
+      <div id="node_146" class="node horizontal">146</div>
+      <div class="break horizontal"></div>
+      <div id="node_170" class="node horizontal">170</div>
+      <div class="break horizontal"></div>
+      <div id="node_223" class="node horizontal">223</div>
+      <div id="node_224" class="node horizontal">224</div>
+      <div class="break horizontal"></div>
+      <div id="node_245" class="node horizontal">245</div>
+      <div class="break horizontal"></div>
+      <div id="node_254" class="node horizontal">254</div>
+    </div>
+    <div class="layer vertical">
+      <div id="node_97" class="node horizontal">97</div>
+      <div class="break horizontal"></div>
+      <div id="node_71" class="node horizontal">71</div>
+      <div class="break horizontal"></div>
+      <div id="node_137" class="node horizontal">137</div>
+      <div class="break horizontal"></div>
+      <div id="node_265" class="node horizontal">265</div>
+      <div class="break horizontal"></div>
+      <div id="node_172" class="node horizontal">172</div>
+      <div class="break horizontal"></div>
+      <div id="node_142" class="node horizontal">142</div>
+      <div class="break horizontal"></div>
+      <div id="node_55" class="node horizontal">55</div>
+      <div class="break horizontal"></div>
+      <div id="node_191" class="node horizontal">191</div>
+    </div>
+  </div>
+  <link rel="stylesheet" type="text/css" href="../css/style.css">'
+  <script type="module" src="../js/render.js"></script>
+</body>
+</html>
